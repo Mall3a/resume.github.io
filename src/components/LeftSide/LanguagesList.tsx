@@ -1,0 +1,55 @@
+import * as React from "react";
+import styled from "styled-components";
+import ProgressBar from "../Common/ProgressBar";
+
+const StyledList = styled.div`
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+`;
+
+const StyledListItem = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+const LanguagesList = () => {
+  return (
+    <StyledList>
+      <StyledListItem>
+        <span>Spanish</span>
+        <ProgressBar value={100} />
+      </StyledListItem>
+      <StyledListItem>
+        <span>English</span>
+        <ProgressBar value={85} />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            marginTop: "10px",
+          }}
+        >
+          <span>TOEIC</span>
+          <span>960/990</span>
+        </div>
+      </StyledListItem>
+      <StyledListItem>
+        <span>Mandarin Chinese</span>
+        <ProgressBar value={50} />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            marginTop: "10px",
+          }}
+        >
+          <span>HSK4</span>
+          <span>266/300</span>
+        </div>
+      </StyledListItem>
+    </StyledList>
+  );
+};
+export default LanguagesList;
