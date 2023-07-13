@@ -58,9 +58,7 @@ const EducationList = () => {
           <h4>Software Engineer</h4>
           <h5>IP Duoc UC</h5>
           <a
-            href={
-              window.location.origin + "/files/CERT_TITULO_DUOC_INGENIERO.pdf"
-            }
+            href={require("../../files/CERT_TITULO_DUOC_INGENIERO.pdf")}
             download
           >
             <FontAwesomeIcon
@@ -77,9 +75,7 @@ const EducationList = () => {
           <h4>Software Developer</h4>
           <h5>IP Duoc UC</h5>
           <a
-            href={
-              window.location.origin + "/files/CERT_TITULO_DUOC_ANALISTA.pdf"
-            }
+            href={require("../../files/CERT_TITULO_DUOC_ANALISTA.pdf")}
             download
           >
             <FontAwesomeIcon
@@ -96,10 +92,7 @@ const EducationList = () => {
           <h5>2015 - 2015</h5>
           <h4>Bilingual Executive Assistant</h4>
           <h5>CFT Manpower</h5>
-          <a
-            href={window.location.origin + "/files/CERT_TITULO_MANPOWER.pdf"}
-            download
-          >
+          <a href={require("../../files/CERT_TITULO_MANPOWER.pdf")} download>
             <FontAwesomeIcon
               color="darkblue"
               icon={faDownload}
@@ -113,10 +106,7 @@ const EducationList = () => {
           <h5>2010 - 2014</h5>
           <h4>Mandarin Chinese Translator</h4>
           <h5>UCINF University</h5>
-          <a
-            href={window.location.origin + "/files/CERT_TITULO_UCINF.pdf"}
-            download
-          >
+          <a href={require("../../files/CERT_TITULO_UCINF.pdf")} download>
             <FontAwesomeIcon
               color="darkblue"
               icon={faDownload}

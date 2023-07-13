@@ -8,6 +8,7 @@ import ListItemText from "@mui/material/ListItemText";
 import Divider from "@mui/material/Divider";
 import DraftsIcon from "@mui/icons-material/Drafts";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { ReactSVG } from "react-svg";
 import {
   faEnvelope,
   faLocationDot,
@@ -36,10 +37,11 @@ const ContactInfoList = () => {
           <ListItemButton>
             <ListItemIcon>
               <StyledIcon>
-                <FontAwesomeIcon
-                  icon={faEnvelope}
+                <img
+                  width="30"
+                  src="https://www.svgrepo.com/show/452213/gmail.svg"
                   aria-hidden="true"
-                ></FontAwesomeIcon>
+                ></img>
               </StyledIcon>
             </ListItemIcon>
             <a href="mailto:comallea@gmail.com">comallea@gmail.com</a>
@@ -49,10 +51,11 @@ const ContactInfoList = () => {
           <ListItemButton>
             <ListItemIcon>
               <StyledIcon>
-                <FontAwesomeIcon
-                  icon={faMobileAlt}
+                <img
+                  width="30"
+                  src="https://www.svgrepo.com/show/452133/whatsapp.svg"
                   aria-hidden="true"
-                ></FontAwesomeIcon>
+                ></img>
               </StyledIcon>
             </ListItemIcon>
             <a href="https://wa.me/56981559283">+56 9 81559283</a>
@@ -64,9 +67,10 @@ const ContactInfoList = () => {
             <ListItemIcon>
               <StyledIcon>
                 <img
-                  width="17"
-                  src={window.location.origin + "/images/linkedin.svg"}
-                ></img>
+                  width="30"
+                  color="white"
+                  src="https://www.svgrepo.com/show/138936/linkedin.svg"
+                />
               </StyledIcon>
             </ListItemIcon>
             <a href="https://bit.ly/46NCjlk">/constanza-mallea</a>
@@ -76,10 +80,11 @@ const ContactInfoList = () => {
           <ListItemButton>
             <ListItemIcon>
               <StyledIcon>
-                <FontAwesomeIcon
-                  icon={faLocationDot}
+                <img
+                  width="30"
+                  src="https://www.svgrepo.com/show/452221/google-maps.svg"
                   aria-hidden="true"
-                ></FontAwesomeIcon>
+                ></img>
               </StyledIcon>
             </ListItemIcon>
             <a href="http://maps.google.com/?q=Ñuñoa, Santiago, Chile">
