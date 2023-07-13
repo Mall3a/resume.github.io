@@ -1,7 +1,6 @@
 import { Avatar, AvatarGroup } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
-import WorkDetail from "../Common/Accordeon";
 import Accordeon from "../Common/Accordeon";
 const StyledYearCompany = styled.div`
   min-width: 150px;

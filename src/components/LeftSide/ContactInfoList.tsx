@@ -1,19 +1,8 @@
-import * as React from "react";
-import Box from "@mui/material/Box";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import Divider from "@mui/material/Divider";
-import DraftsIcon from "@mui/icons-material/Drafts";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ReactSVG } from "react-svg";
-import {
-  faEnvelope,
-  faLocationDot,
-  faMobileAlt,
-} from "@fortawesome/free-solid-svg-icons";
+
 import styled from "styled-components";
 
 const StyledIcon = styled.span``;
