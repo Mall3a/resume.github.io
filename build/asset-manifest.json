@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-gh-pages/static/js/main.fb3aa58a.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.fb3aa58a.js.map": "/react-gh-pages/static/js/main.fb3aa58a.js.map"
+    "main.js": "/resume.github.io/static/js/main.6d0ba229.js",
+    "index.html": "/resume.github.io/index.html",
+    "main.6d0ba229.js.map": "/resume.github.io/static/js/main.6d0ba229.js.map"
   },
   "entrypoints": [
-    "static/js/main.fb3aa58a.js"
+    "static/js/main.6d0ba229.js"
   ]
 }

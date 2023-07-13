@@ -47,7 +47,7 @@ const ProfilePicture = () => {
       <StyledImgBox>
         <img
           alt="profilePicture"
-          src={window.location.origin + "/images/profilePicture.png"}
+          src={require("../../images/profilePicture.png")}
         />
       </StyledImgBox>
       <h2>
