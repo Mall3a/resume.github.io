@@ -8,6 +8,7 @@ import {
   faAddressCard,
   faEarthAmericas,
   faGear,
+  faMousePointer,
 } from "@fortawesome/free-solid-svg-icons";
 import ContactInfoList from "./components/LeftSide/ContactInfoList";
 import EducationList from "./components/RightSide/EducationList";
@@ -17,6 +18,7 @@ import WorkList from "./components/RightSide/WorkList";
 import SkillsList from "./components/LeftSide/SkillsList";
 import { Chip, Stack } from "@mui/material";
 import ToolsList from "./components/LeftSide/ToolsList";
+import CoursesList from "./components/LeftSide/CoursesList";
 
 const GlobalStyles = createGlobalStyle`
 * {
@@ -50,7 +52,7 @@ p {
 const StyledContainer = styled.div`
   position: relative;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1052px;
   min-height: 1000px;
   background: #fff;
   margin: 50px;
@@ -205,6 +207,18 @@ const Resume = ({}) => {
             </TitleContainer>
             <ToolsList />
           </StyledAboutInterests>
+          <StyledAbout>
+            <TitleContainer>
+              <FontAwesomeIcon
+                fontSize={25}
+                color="white"
+                icon={faMousePointer}
+                aria-hidden="true"
+              ></FontAwesomeIcon>
+              <StyledTitle>Courses</StyledTitle>
+            </TitleContainer>
+            <CoursesList />
+          </StyledAbout>
         </StyledLeftSide>
         <StyledRightSide>
           <StyledAbout>
@@ -226,6 +240,7 @@ const Resume = ({}) => {
               methodology, and used different front-end frameworks and
               libraries.
             </p>
+            <br />
             <p>
               I am not currently in Canada. However, I am LMIA-exempt because I
               am covered under the Canada-Chile Free Trade Agreement{" "}

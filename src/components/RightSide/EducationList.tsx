@@ -99,7 +99,7 @@ const EducationList = () => {
         </StyledListItem>
       )}
 
-      {false && (
+      {
         <StyledListItem>
           <StyledCard>
             <h5>2010 - 2014</h5>
@@ -114,7 +114,7 @@ const EducationList = () => {
             </a>
           </StyledCard>
         </StyledListItem>
-      )}
+      }
     </StyledEducationList>
   );
 };
