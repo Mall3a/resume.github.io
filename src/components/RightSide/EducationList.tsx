@@ -11,7 +11,7 @@ const StyledEducationList = styled.ul`
   align-content: center;
   justify-content: space-between;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: flex-end;
 `;
 
@@ -81,35 +81,40 @@ const EducationList = () => {
           </a>
         </StyledCard>
       </StyledListItem>
-      <StyledListItem>
-        <StyledCard>
-          {" "}
-          <h5>2015 - 2015</h5>
-          <h4>Bilingual Executive Assistant</h4>
-          <h5>CFT Manpower</h5>
-          <a href={require("../../files/CERT_TITULO_MANPOWER.pdf")} download>
-            <FontAwesomeIcon
-              color="darkblue"
-              icon={faDownload}
-              aria-hidden="true"
-            ></FontAwesomeIcon>
-          </a>
-        </StyledCard>
-      </StyledListItem>
-      <StyledListItem>
-        <StyledCard>
-          <h5>2010 - 2014</h5>
-          <h4>Mandarin Chinese Translator</h4>
-          <h5>UCINF University</h5>
-          <a href={require("../../files/CERT_TITULO_UCINF.pdf")} download>
-            <FontAwesomeIcon
-              color="darkblue"
-              icon={faDownload}
-              aria-hidden="true"
-            ></FontAwesomeIcon>
-          </a>
-        </StyledCard>
-      </StyledListItem>
+      {false && (
+        <StyledListItem>
+          <StyledCard>
+            {" "}
+            <h5>2015 - 2015</h5>
+            <h4>Bilingual Executive Assistant</h4>
+            <h5>CFT Manpower</h5>
+            <a href={require("../../files/CERT_TITULO_MANPOWER.pdf")} download>
+              <FontAwesomeIcon
+                color="darkblue"
+                icon={faDownload}
+                aria-hidden="true"
+              ></FontAwesomeIcon>
+            </a>
+          </StyledCard>
+        </StyledListItem>
+      )}
+
+      {false && (
+        <StyledListItem>
+          <StyledCard>
+            <h5>2010 - 2014</h5>
+            <h4>Mandarin Chinese Translator</h4>
+            <h5>UCINF University</h5>
+            <a href={require("../../files/CERT_TITULO_UCINF.pdf")} download>
+              <FontAwesomeIcon
+                color="darkblue"
+                icon={faDownload}
+                aria-hidden="true"
+              ></FontAwesomeIcon>
+            </a>
+          </StyledCard>
+        </StyledListItem>
+      )}
     </StyledEducationList>
   );
 };
