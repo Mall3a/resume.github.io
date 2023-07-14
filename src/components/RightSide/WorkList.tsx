@@ -10,6 +10,11 @@ const StyledYearCompany = styled.div`
     color: #848c90;
     font-weight: 600;
   }
+
+  @media (max-width: 600px) {
+    min-width: 150px;
+    margin-bottom: 5px;
+  }
 `;
 
 const StyledText = styled.span`

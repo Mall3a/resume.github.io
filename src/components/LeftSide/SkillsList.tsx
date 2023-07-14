@@ -11,6 +11,14 @@ const StyledBox = styled.div`
   grid-template-columns: 150px 1fr;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 600px) {
+     {
+      flex-direction: column;
+
+      grid-template-columns: repeat;
+    }
+  }
 `;
 
 const SkillsList = () => {
