@@ -130,6 +130,18 @@ const TitleContainer = styled.div`
   gap: 10px;
 `;
 
+const StyledA = styled.a`
+  color: #333;
+
+  &:hover {
+    color: darkblue;
+  }
+
+  &:visited {
+    color: darkred;
+  }
+`;
+
 const Resume = ({}) => {
   return (
     <>
@@ -196,6 +208,13 @@ const Resume = ({}) => {
               developing RPAs using BluePrism Software. I have worked with agile
               methodology, and used different front-end frameworks and
               libraries.
+            </p>
+            <p>
+              I am not currently in Canada. However, I am LMIA-exempt because I
+              am covered under the Canada-Chile Free Trade Agreement{" "}
+              <StyledA href="https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/chile-chili/index.aspx?lang=eng">
+                (CCFTA)
+              </StyledA>
             </p>
           </StyledAbout>
           <TitleContainer>
