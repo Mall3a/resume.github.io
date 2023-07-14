@@ -141,6 +141,13 @@ const WorkList = () => {
     "Recognized for contributions to the team, outstanding performance, and exceptional results, and was offered a permanent position in the company.",
   ];
 
+  const listofRobotsCreated = [
+    "Blacklist Query Robot for BNP Paribas Cardif client",
+    "Closure of Bank Accounts Robot for Falabella Bank client",
+    "Credit Card Blocking Robot for CMR Falabella client",
+    "Conciliation of letters of credit Robot for Sodimac S.A. client",
+  ];
+
   return (
     <>
       <StyledBox>
@@ -169,11 +176,9 @@ const WorkList = () => {
           <h5>Jun 2021 - Current</h5>
         </StyledYearCompany>
       </StyledBox>
-
       <Accordeon title="Responsabilities" content={autodeskResponsabilities} />
       <Accordeon title="Impact" content={autodeskImpact} />
       <Accordeon title="Awards" content={autodeskAward} />
-
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
@@ -201,10 +206,8 @@ const WorkList = () => {
           <h5>Jan 2021 - Jun 2021</h5>
         </StyledYearCompany>
       </StyledBox>
-
       <Accordeon title="Responsibilities" content={itAxiomaResponsibilities} />
       <Accordeon title="Impact" content={itAxiomaImpact} />
-
       <StyledBox>
         <Avatar
           alt="Groupon"
@@ -224,7 +227,6 @@ const WorkList = () => {
           <h5>Jun 2020 - Jan 2021</h5>
         </StyledYearCompany>
       </StyledBox>
-
       <Accordeon title="Responsibilities" content={grouponResponsibilities} />
       <StyledBox>
         <AvatarGroup max={2}>
@@ -254,7 +256,6 @@ const WorkList = () => {
           <h5>Jan 2020 - Jun 2020</h5>
         </StyledYearCompany>
       </StyledBox>
-
       <Accordeon title="Responsibilities" content={exanovaResponsibilities} />
       <StyledBox>
         <AvatarGroup max={2}>
@@ -289,9 +290,9 @@ const WorkList = () => {
           <h5>Nov 2018 - Dec 2019</h5>
         </StyledYearCompany>
       </StyledBox>
-
       <Accordeon title="Responsibilities" content={deloitteResponsibilities} />
       <Accordeon title="Impact" content={deloitteImpact} />
+      <Accordeon title="RPAs Created" content={listofRobotsCreated} />
 
       <StyledBox>
         <AvatarGroup max={2}>
@@ -319,7 +320,6 @@ const WorkList = () => {
           <h5>Jan 2017 - Nov 2018</h5>
         </StyledYearCompany>
       </StyledBox>
-
       <Accordeon title="Responsibilities" content={ibmResponsibilities} />
       <Accordeon title="Impact" content={ibmImpact} />
       <Accordeon title="Awards" content={ibmAwards} />

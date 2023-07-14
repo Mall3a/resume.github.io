@@ -189,12 +189,13 @@ const Resume = ({}) => {
               <StyledTitle2>Summary</StyledTitle2>
             </TitleContainer>
             <p>
-              Constanza has a total of 6 years of professional experience in the
-              IT industry, mostly in Front-End web development using React with
-              Javascript and Typescript. She also has experience in Back-End web
-              development using Java with Spring Boot and developing RPAs using
-              BluePrism Software. She has worked with agile methodology, and
-              used different front-end frameworks and libraries.
+              I have a total of 6 years of professional experience in the IT
+              industry, mostly in Front-End web development using React with
+              Javascript and Typescript. I also have experience in Back-End web
+              development using Java with Spring Boot developing Rest APIs and
+              developing RPAs using BluePrism Software. I have worked with agile
+              methodology, and used different front-end frameworks and
+              libraries.
             </p>
           </StyledAbout>
           <TitleContainer>

@@ -30,10 +30,7 @@ const LanguagesList = () => {
             justifyContent: "space-between",
             marginTop: "10px",
           }}
-        >
-          <span>TOEIC</span>
-          <span>960/990</span>
-        </div>
+        ></div>
       </StyledListItem>
       <StyledListItem>
         <span>Mandarin Chinese</span>
@@ -44,10 +41,7 @@ const LanguagesList = () => {
             justifyContent: "space-between",
             marginTop: "10px",
           }}
-        >
-          <span>HSK4</span>
-          <span>266/300</span>
-        </div>
+        ></div>
       </StyledListItem>
     </StyledList>
   );
