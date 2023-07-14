@@ -25,7 +25,7 @@ const SkillsList = () => {
   return (
     <>
       <StyledBox>
-        <Rating placeholder="Javascript EC6" value={4}></Rating>
+        <Rating placeholder="Javascript ES6" value={4}></Rating>
       </StyledBox>
       <StyledBox>
         <Rating placeholder="Typescript" value={3}></Rating>
