@@ -131,8 +131,7 @@ const WorkList = () => {
         </StyledYearCompany>
       </StyledBox>
       <Accordeon title="Responsabilities" content={autodeskResponsabilities} />
-      <Accordeon title="Impact" content={autodeskImpact} />
-      <Accordeon title="Awards" content={autodeskAward} />
+
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
@@ -161,7 +160,6 @@ const WorkList = () => {
         </StyledYearCompany>
       </StyledBox>
       <Accordeon title="Responsibilities" content={itAxiomaResponsibilities} />
-      <Accordeon title="Impact" content={itAxiomaImpact} />
       <StyledBox>
         <Avatar
           alt="Groupon"
@@ -245,8 +243,6 @@ const WorkList = () => {
         </StyledYearCompany>
       </StyledBox>
       <Accordeon title="Responsibilities" content={deloitteResponsibilities} />
-      <Accordeon title="Impact" content={deloitteImpact} />
-      <Accordeon title="RPAs Created" content={listofRobotsCreated} />
 
       <StyledBox>
         <AvatarGroup max={2}>
@@ -275,8 +271,6 @@ const WorkList = () => {
         </StyledYearCompany>
       </StyledBox>
       <Accordeon title="Responsibilities" content={ibmResponsibilities} />
-      <Accordeon title="Impact" content={ibmImpact} />
-      <Accordeon title="Awards" content={ibmAwards} />
     </>
   );
 };
