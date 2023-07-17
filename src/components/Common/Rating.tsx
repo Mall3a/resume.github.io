@@ -2,7 +2,6 @@ import * as React from "react";
 import Rating from "@mui/material/Rating";
 import Box from "@mui/material/Box";
 import StarIcon from "@mui/icons-material/Star";
-import { Typography } from "@mui/material";
 
 const labels: { [index: string]: string } = {
   0.5: "Useless",
@@ -29,7 +28,7 @@ export default function HoverRating(props: {
 
   return (
     <>
-      <Typography component="legend">{props.placeholder}</Typography>
+      <span>{props.placeholder}</span>
       <Box
         sx={{
           width: 200,
