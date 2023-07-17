@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/resume.github.io/static/js/main.ac22fbbe.js",
+    "main.js": "/resume.github.io/static/js/main.8812d969.js",
     "static/media/profilePicture.png": "/resume.github.io/static/media/profilePicture.092fc700abb001e67eca.png",
     "static/media/CERT_TITULO_UCINF.pdf": "/resume.github.io/static/media/CERT_TITULO_UCINF.f4b4856c5b3d75891499.pdf",
     "static/media/CERT_CURSO_INSTCONFUCIO.pdf": "/resume.github.io/static/media/CERT_CURSO_INSTCONFUCIO.3bfea5cedb00a9a3c9c5.pdf",
     "static/media/CERT_TITULO_DUOC_ANALISTA.pdf": "/resume.github.io/static/media/CERT_TITULO_DUOC_ANALISTA.efd376e068e3fba93c38.pdf",
     "static/media/CERT_TITULO_DUOC_INGENIERO.pdf": "/resume.github.io/static/media/CERT_TITULO_DUOC_INGENIERO.9263fb699af480d29b8f.pdf",
     "index.html": "/resume.github.io/index.html",
-    "main.ac22fbbe.js.map": "/resume.github.io/static/js/main.ac22fbbe.js.map"
+    "main.8812d969.js.map": "/resume.github.io/static/js/main.8812d969.js.map"
   },
   "entrypoints": [
-    "static/js/main.ac22fbbe.js"
+    "static/js/main.8812d969.js"
   ]
 }
