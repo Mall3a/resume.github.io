@@ -16,6 +16,7 @@ const Container = styled.div`
   display; flex;
   flex-direction: column;
   padding-left: 20px;
+  gap:5px;
 `;
 
 const Year = styled.div`
