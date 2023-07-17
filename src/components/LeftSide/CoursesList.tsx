@@ -23,13 +23,6 @@ const CoursesList = () => {
           <ListItemText>
             Confucius Institute - Pontifical Catholic University of Chile
           </ListItemText>
-          <a href={require("../../files/CERT_CURSO_INSTCONFUCIO.pdf")} download>
-            <FontAwesomeIcon
-              color="white"
-              icon={faDownload}
-              aria-hidden="true"
-            ></FontAwesomeIcon>
-          </a>
         </Container>
       </ListItem>
     </List>
