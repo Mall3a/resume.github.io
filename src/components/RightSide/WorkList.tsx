@@ -57,100 +57,49 @@ const StyledBox = styled.div`
 
 const WorkList = () => {
   const autodeskResponsabilities = [
-    "Develop and implement front-end solutions for Autodesk client using CSS, SASS, styled-components, JavaScript, TypeScript, React, Redux, Redux Toolkit, MobX, and Storybook to create scalable and interactive web applications.",
-    "Collaborate closely with the client to understand their requirements and translate them into functional and visually appealing user interfaces.",
-    "Conduct thorough unit tests using Jest, React Testing Library, and Cypress to ensure the quality and performance of the developed features.",
-    "Actively participate in Agile development processes, including daily meetings, sprint planning, and retrospectives, moving Jira tickets in the Kanban board when done.",
-    "Effectively communicate with the client in English, providing updates, addressing inquiries, and discussing project progress.",
-  ];
-
-  const autodeskImpact = [
-    "Successfully delivered high-quality front-end solutions within project timelines, meeting client expectations, and ensuring customer satisfaction.",
-    "Optimized performance by refactoring code and implementing best practices, improving code quality.",
-  ];
-
-  const autodeskAward = [
-    "Recognized for outstanding performance and dedication, received a promotion in 2022 for exceptional customer focus and contribution to project success.",
+    "As a contractor for Autodesk, develop front-end solutions using SASS, styled-components, JavaScript, TypeScript, React, Redux, Redux Toolkit, MobX and Storybook",
+    "Conduct thorough unit tests using Jest, React Testing Library, and Cypress",
+    "Participate in Agile development processes",
   ];
 
   const itAxiomaResponsibilities = [
-    "Developed full stack solutions for the Cencosud Scotiabank client in its agile cell, following the Scrum methodology.",
-    "Utilized React, Redux, Express JS, JavaScript, HTML, CSS, and the Storybook framework to create interactive and responsive user interfaces.",
-    "Collaborated with cross-functional teams to gather requirements, conduct code reviews, and ensure smooth integration of front-end and back-end components.",
-    "Developed a Backend for Frontend (BFF) and RESTful APIs using Java EE and Spring Boot, following a hexagonal architecture, to enable efficient data retrieval and manipulation.",
-    "Created multiple React components in the Cencosud Scotiabank private library, using the Storybook framework, for the development of their new customer website.",
-    "Used GIT as a version control tool to manage the codebase and collaborate with team members.",
-    "Reviewed and approved pull requests from the development team.",
-  ];
-
-  const itAxiomaImpact = [
-    "Implemented reusable UI components, enhancing consistency across the application.",
-    "Enhanced user engagement by implementing interactive and user-friendly features.",
-    "Collaborated with QA teams to identify and resolve bugs, ensuring a high-quality and bug-free application.",
+    "Use React, Redux, Express JS, JavaScript, HTML, CSS, and Storybook framework to create interactive and responsive user interfaces.",
+    "Participate in Agile development processes",
+    "Develop a Backend for Frontend (BFF) and RESTful APIs using Java EE and Spring Boot, following a hexagonal architecture, to enable efficient data retrieval and manipulation.",
+    "Create react components in the client’s private library, using the Storybook framework.",
+    "Use GIT as a version control tool.",
+    "Review and approve pull requests from the development team.",
   ];
 
   const grouponResponsibilities = [
-    "Participated in the creation and modification of Groupon official website as a Front-End developer.",
-    "Utilized React, JavaScript, HTML, CSS, and GIT for version control to implement and enhance the user interface.",
-    "Collaborated closely with the development team to understand project requirements and translate them into functional and visually appealing features.",
-    "Implemented responsive design principles to ensure a seamless experience across different devices and screen sizes.",
-    "Conducted regular code reviews and worked on bug fixes to maintain a high quality and error-free website.",
+    "Collaborate closely with the development team to understand project requirements and translate them into functional and visually appealing features.",
+    "Use React, JavaScript, HTML, CSS, and GIT as version control tool to enhance the user interface.",
+    "Work on bug fixes to maintain a high quality and error-free website.",
   ];
 
   const exanovaResponsibilities = [
-    "Contributed to the creation of Edenred's private website as a Front-End developer.",
-    "Utilized Angular 8, TypeScript, HTML, CSS, C#, Angular Material, and Bootstrap libraries to implement and enhance the user interface.",
-    "Collaborated closely with the development team to understand project requirements and translate them into functional and visually appealing features.",
-    "Implemented responsive design principles to ensure a seamless experience across different devices and screen sizes.",
-    "Worked in an Agile environment following the SCRUM methodology, utilizing Azure DevOps as the project management platform.",
-    "Utilized GIT for version control to manage the codebase and collaborate with team members.",
-    "Collaborated with backend developers to integrate API endpoints and ensure seamless data exchange, resulting in a more robust and functional website.",
+    "Collaborate with the development team to understand project requirements and translate them into functional and visually appealing features.",
+    "Use Angular 8, TypeScript, HTML, CSS, C#, Angular Material, and Bootstrap libraries to implement and enhance the user interface.",
+    "Implement responsive design principles",
+    "Participate in Agile development processes, using Azure DevOps as the project management platform.",
+    "Use GIT as version control tool",
+    "Collaborate with backend developers to integrate rest API.",
   ];
 
   const deloitteResponsibilities = [
-    "Collaborate closely with the clients to understand their specific automation requirements and translate them into effective Blueprism solutions.",
-    "Develop RPAs utilizing Blueprism software to automate key processes for clients such as CMR Falabella, Banco Falabella, Cardif, and Sodimac.",
-    "Analyze existing processes to identify opportunities for automation and implement efficient and accurate RPA solutions.",
-    "Conduct thorough testing and debugging of Blueprism automation workflows to ensure smooth and error-free process execution.",
-    "Collaborate with cross-functional teams to integrate Blueprism automation with other systems and technologies.",
-  ];
-
-  const deloitteImpact = [
-    "Improved efficiency in the automation of critical processes for CMR Falabella, Banco Falabella, Cardif, and Sodimac through Blueprism implementation.",
-    "Achieved significant time and cost savings for the clients by automating manual and repetitive tasks.",
-    "Enhanced data accuracy and reduced errors by implementing robust error handling mechanisms in the Blueprism automation workflows.",
-    "Contributed to the overall success and customer satisfaction of the clients by delivering high-quality and reliable automation solutions.",
-    "Completed Guidewire Suite Training and obtained Guidewire 10 Fundamentals Certification.",
-    "Studied and familiarized myself with the Guidewire platform, gaining a deep understanding of its core concepts and functionalities.",
-    "Applied the knowledge gained from the training to effectively contribute to the development and implementation of Guidewire-based solutions.",
+    "Collaborate with the clients to understand their specific automation requirements and translate them into effective BluePrism solutions.",
+    "Develop RPAs utilizing BluePrism software to automate key processes for clients such as Falabella Retail, Falabella Bank, BNP Paribas Cardif, and Sodimac.",
+    "Conduct thorough testing and debugging of BluePrism automation workflows to ensure smooth and error-free process execution.",
+    "Integrate BluePrism automation with other systems and technologies to Implement efficient and accurate RPA solutions.",
   ];
 
   const ibmResponsibilities = [
-    "Undertook a professional internship as a Front-End developer, focusing on corrective maintenance of Itaú Bank website for individuals and companies.",
-    "Collaborated with the team to identify and resolve issues and bugs in the web, ensuring its smooth operation and user satisfaction.",
-    "Utilized IBM WebSphere Portal v7.5, based on Eclipse, to develop and enhance the front-end functionalities of the web portal.",
-    "Used JavaScript, jQuery, HTML5, CSS3, and Java EE Helper classes to address maintenance requirements and improve the user interface.",
-    "Worked with XML-related technologies, including XSL, XSD, and XML, to handle data transformation and ensure proper data integration.",
-    "Employed IBM Rational Team Concert (RTC) as the version control tool to manage and track changes in the codebase.",
-  ];
-
-  const ibmImpact = [
-    "Played a role as a technical referee within the development team, bringing expertise in the IBM WebSphere Portal framework.",
-    "Created a dedicated section on the website for Banco Itaú's customers to check the status of their mortgage loan applications.",
-    "Assisted in the training and supervision of a fellow developer assigned to the agile team.",
-    "Improved the user experience for Itaú Bank customers by developing the Credit and Debit Card Blocking section.",
-    "Enhanced the password recovery section on the website, resulting in a reduction in customer complaints.",
-  ];
-
-  const ibmAwards = [
-    "Recognized for contributions to the team, outstanding performance, and exceptional results, and was offered a permanent position in the company.",
-  ];
-
-  const listofRobotsCreated = [
-    "Blacklist Query Robot for BNP Paribas Cardif client",
-    "Closure of Bank Accounts Robot for Falabella Bank client",
-    "Credit Card Blocking Robot for CMR Falabella client",
-    "Conciliation of letters of credit Robot for Sodimac S.A. client",
+    "First 4 months of internship, then was offered a permanent position in the team",
+    "Identify and resolve bugs in the web to improve the user interface",
+    "Develop and enhance front end functionalities",
+    "Assist in the training and supervision of a fellow developer assigned to the team",
+    "Use of Javascript, HTML, CSS, IBM WebSphere Portal 8, Java Helper Classes and IBM Rational Team Concert as version control Tool.",
+    "Use of XML-related technologies, including XML, XSL and XSD to handle data transformation and data integration and (SOAP services)",
   ];
 
   return (
