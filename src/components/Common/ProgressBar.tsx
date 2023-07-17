@@ -2,7 +2,6 @@ import * as React from "react";
 import LinearProgress, {
   LinearProgressProps,
 } from "@mui/material/LinearProgress";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 
 const ProgressBar = (props: LinearProgressProps & { value: number }) => {
@@ -18,9 +17,7 @@ const ProgressBar = (props: LinearProgressProps & { value: number }) => {
           />
         </Box>
         <Box sx={{ minWidth: 35 }}>
-          <Typography variant="body2" color="white">{`${Math.round(
-            props.value
-          )}%`}</Typography>
+          <span color="white">{`${Math.round(props.value)}%`}</span>
         </Box>
       </Box>
     </Box>

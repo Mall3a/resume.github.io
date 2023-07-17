@@ -16,7 +16,6 @@ import LanguagesList from "./components/LeftSide/LanguagesList";
 import ProfilePicture from "./components/LeftSide/ProfilePicture";
 import WorkList from "./components/RightSide/WorkList";
 import SkillsList from "./components/LeftSide/SkillsList";
-import { Chip, Stack } from "@mui/material";
 import ToolsList from "./components/RightSide/ToolsList";
 import CoursesList from "./components/LeftSide/CoursesList";
 
