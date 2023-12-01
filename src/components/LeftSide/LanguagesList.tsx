@@ -23,7 +23,7 @@ const LanguagesList = () => {
       </StyledListItem>
       <StyledListItem>
         <span>English</span>
-        <ProgressBar value={85} />
+        <ProgressBar value={90} />
         <div
           style={{
             display: "flex",

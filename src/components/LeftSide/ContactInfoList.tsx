@@ -36,20 +36,22 @@ const ContactInfoList = () => {
             <a href="mailto:comallea@gmail.com">comallea@gmail.com</a>
           </ListItemButton>
         </ListItem>
-        <ListItem disablePadding>
-          <ListItemButton>
-            <ListItemIcon>
-              <StyledIcon>
-                <img
-                  width="30"
-                  src="https://www.svgrepo.com/show/452133/whatsapp.svg"
-                  aria-hidden="true"
-                ></img>
-              </StyledIcon>
-            </ListItemIcon>
-            <a href="https://wa.me/56981559283">+56 9 81559283</a>
-          </ListItemButton>
-        </ListItem>
+        {false && (
+          <ListItem disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <StyledIcon>
+                  <img
+                    width="30"
+                    src="https://www.svgrepo.com/show/452133/whatsapp.svg"
+                    aria-hidden="true"
+                  ></img>
+                </StyledIcon>
+              </ListItemIcon>
+              <a href="https://wa.me/56981559283">+56 9 81559283</a>
+            </ListItemButton>
+          </ListItem>
+        )}
         <ListItem disablePadding>
           <ListItemButton>
             {" "}
@@ -65,22 +67,24 @@ const ContactInfoList = () => {
             <a href="https://bit.ly/46NCjlk">/constanza-mallea</a>
           </ListItemButton>
         </ListItem>
-        <ListItem disablePadding>
-          <ListItemButton>
-            <ListItemIcon>
-              <StyledIcon>
-                <img
-                  width="30"
-                  src="https://www.svgrepo.com/show/452221/google-maps.svg"
-                  aria-hidden="true"
-                ></img>
-              </StyledIcon>
-            </ListItemIcon>
-            <a href="http://maps.google.com/?q=Ñuñoa, Santiago, Chile">
-              Ñuñoa, Santiago, Chile
-            </a>
-          </ListItemButton>
-        </ListItem>
+        {false && (
+          <ListItem disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <StyledIcon>
+                  <img
+                    width="30"
+                    src="https://www.svgrepo.com/show/452221/google-maps.svg"
+                    aria-hidden="true"
+                  ></img>
+                </StyledIcon>
+              </ListItemIcon>
+              <a href="http://maps.google.com/?q=Ñuñoa, Santiago, Chile">
+                Ñuñoa, Santiago, Chile
+              </a>
+            </ListItemButton>
+          </ListItem>
+        )}
       </List>
     </StyledContactInfo>
   );
