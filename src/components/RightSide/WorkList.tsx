@@ -108,12 +108,12 @@ const WorkList = () => {
         <AvatarGroup max={2}>
           <Avatar
             alt="Globant"
-            src="https://media.licdn.com/dms/image/D560BAQHWB0kBTxn0kA/company-logo_100_100/0/1688411226020?e=1697068800&v=beta&t=C3Xcftoc4EmSIoLgJvQgWGIe2gI26xaQieg0z0FfVEc"
+            src={require("../../images/globant.png")}
             sx={{ width: 56, height: 56 }}
           />
           <Avatar
-            alt="Globant"
-            src="https://media.licdn.com/dms/image/D560BAQGfuQkbYJZz1g/company-logo_100_100/0/1688187924213?e=1697068800&v=beta&t=uTV7XHqccqNNTE4sdVOOk2KDmtGTo9CXf1yr6d7CR2U"
+            alt="Autodesk"
+            src={require("../../images/autodesk.png")}
             sx={{ width: 56, height: 56 }}
           />{" "}
         </AvatarGroup>
@@ -130,22 +130,25 @@ const WorkList = () => {
           <h5>Jun 2021 - Current</h5>
         </StyledYearCompany>
       </StyledBox>
-      <Accordeon title="Responsabilities" content={autodeskResponsabilities} />
-
+      {false && (
+        <Accordeon
+          title="Responsabilities"
+          content={autodeskResponsabilities}
+        />
+      )}
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
             alt="IT Axioma"
-            src="https://media.licdn.com/dms/image/C4E0BAQFVC42RRkwUew/company-logo_100_100/0/1554146146130?e=1697068800&v=beta&t=fdFvHy0sMOwSR1OBxv1W5MPscvHOC5MoNzzkVqrc3xY"
+            src={require("../../images/itaxioma.png")}
             sx={{ width: 56, height: 56 }}
           />
           <Avatar
             alt="Cencosud-Scotiabank"
-            src="https://play-lh.googleusercontent.com/rpJ0OaAXJOgarnPrbwPklbgzMVS3CrfTWl3RNgRnRAAu_GpKyMMVKYdfmj5NAfLw2yLb"
+            src={require("../../images/cencosud-scotiabank.png")}
             sx={{ width: 56, height: 56 }}
           />{" "}
         </AvatarGroup>
-
         <StyledText>
           <h4>Full Stack Developer</h4>
           <p>
@@ -159,11 +162,16 @@ const WorkList = () => {
           <h5>Jan 2021 - Jun 2021</h5>
         </StyledYearCompany>
       </StyledBox>
-      <Accordeon title="Responsibilities" content={itAxiomaResponsibilities} />
+      {false && (
+        <Accordeon
+          title="Responsibilities"
+          content={itAxiomaResponsibilities}
+        />
+      )}
       <StyledBox>
         <Avatar
           alt="Groupon"
-          src="https://media.licdn.com/dms/image/D4E0BAQHGY3um1bs0lg/company-logo_100_100/0/1688371558672?e=1697068800&v=beta&t=JW9bIJfN10fbWeSu3J7go7cx0WDT2qK_KLOyz-OSjvU"
+          src={require("../../images/groupon.png")}
           sx={{ width: 56, height: 56 }}
         />{" "}
         <StyledText>
@@ -179,21 +187,22 @@ const WorkList = () => {
           <h5>Jun 2020 - Jan 2021</h5>
         </StyledYearCompany>
       </StyledBox>
-      <Accordeon title="Responsibilities" content={grouponResponsibilities} />
+      {false && (
+        <Accordeon title="Responsibilities" content={grouponResponsibilities} />
+      )}
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
             alt="Exanova Technology"
-            src="https://media.licdn.com/dms/image/D4E0BAQGntLJZnQi2SA/company-logo_100_100/0/1684266536016?e=1697068800&v=beta&t=DHxp8hA1KCxjcXoFtxupe9F4yGXIoy-OmyFefDSTJ5w"
+            src={require("../../images/exanova.png")}
             sx={{ width: 56, height: 56 }}
           />
           <Avatar
             alt="Edenred"
-            src="https://media.licdn.com/dms/image/C4D0BAQHR1lDkZ196lQ/company-logo_100_100/0/1519922007033?e=1697068800&v=beta&t=7fCgHtFnXyEIKvwEgpwUo8GxnuIP81Kvofrt2mo3BQU"
+            src={require("../../images/edenred.png")}
             sx={{ width: 56, height: 56 }}
           />{" "}
         </AvatarGroup>
-
         <StyledText>
           <h4>Full Stack Developer</h4>
           <p>
@@ -208,17 +217,19 @@ const WorkList = () => {
           <h5>Jan 2020 - Jun 2020</h5>
         </StyledYearCompany>
       </StyledBox>
-      <Accordeon title="Responsibilities" content={exanovaResponsibilities} />
+      {false && (
+        <Accordeon title="Responsibilities" content={exanovaResponsibilities} />
+      )}
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
             alt="Deloitte Chile"
-            src="https://media.licdn.com/dms/image/C560BAQGNtpblgQpJoQ/company-logo_100_100/0/1662120927694?e=1697068800&v=beta&t=3zWzKwqUoocPo6YUQ0lw87m_WQoWPApSh-BZ-pfKtPI"
+            src={require("../../images/deloitte.png")}
             sx={{ width: 56, height: 56 }}
           />
           <Avatar
             alt="Falabella Retail"
-            src="https://images.falabella.com/v3/assets/blt7c5c2f2f888a7cc3/bltac3cc69ae7d9a553/610883e7ac7fb61a3678c01a/CardGrid_falabella_retail_dk_ja2.jpg"
+            src={require("../../images/falabella.png")}
             sx={{ width: 56, height: 56 }}
           />{" "}
           <Avatar alt="Falabella Bank" sx={{ width: 56, height: 56 }} />{" "}
@@ -242,18 +253,22 @@ const WorkList = () => {
           <h5>Nov 2018 - Dec 2019</h5>
         </StyledYearCompany>
       </StyledBox>
-      <Accordeon title="Responsibilities" content={deloitteResponsibilities} />
-
+      {false && (
+        <Accordeon
+          title="Responsibilities"
+          content={deloitteResponsibilities}
+        />
+      )}
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
             alt="IBM de Chile SAC"
-            src="https://media.licdn.com/dms/image/D560BAQGiz5ecgpCtkA/company-logo_100_100/0/1688684715427?e=1697068800&v=beta&t=F_ZqdL__viQJShHtdgDBSv1nPgAcZFoSotLSbsRHMDc"
-            sx={{ width: 56, height: 56 }}
+            src={require("../../images/ibm.png")}
+            sx={{ width: 54, height: 56 }}
           />
           <Avatar
             alt="Itaú Bank"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banco_Ita%C3%BA_logo.svg/1011px-Banco_Ita%C3%BA_logo.svg.png"
+            src={require("../../images/itau.png")}
             sx={{ width: 56, height: 56 }}
           />{" "}
         </AvatarGroup>
@@ -270,7 +285,9 @@ const WorkList = () => {
           <h5>Jan 2017 - Nov 2018</h5>
         </StyledYearCompany>
       </StyledBox>
-      <Accordeon title="Responsibilities" content={ibmResponsibilities} />
+      {false && (
+        <Accordeon title="Responsibilities" content={ibmResponsibilities} />
+      )}
     </>
   );
 };

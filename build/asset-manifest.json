@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.js": "/resume.github.io/static/js/main.8812d969.js",
-    "static/media/profilePicture.png": "/resume.github.io/static/media/profilePicture.092fc700abb001e67eca.png",
-    "static/media/CERT_TITULO_UCINF.pdf": "/resume.github.io/static/media/CERT_TITULO_UCINF.f4b4856c5b3d75891499.pdf",
+    "main.js": "/resume.github.io/static/js/main.725cdf92.js",
+    "static/media/profilePicture.png": "/resume.github.io/static/media/profilePicture.add46e86754e40443a79.png",
+    "static/media/cencosud-scotiabank.png": "/resume.github.io/static/media/cencosud-scotiabank.5d72761ff6a0fa3823b8.png",
     "static/media/CERT_CURSO_INSTCONFUCIO.pdf": "/resume.github.io/static/media/CERT_CURSO_INSTCONFUCIO.3bfea5cedb00a9a3c9c5.pdf",
-    "static/media/CERT_TITULO_DUOC_ANALISTA.pdf": "/resume.github.io/static/media/CERT_TITULO_DUOC_ANALISTA.efd376e068e3fba93c38.pdf",
-    "static/media/CERT_TITULO_DUOC_INGENIERO.pdf": "/resume.github.io/static/media/CERT_TITULO_DUOC_INGENIERO.9263fb699af480d29b8f.pdf",
+    "static/media/edenred.png": "/resume.github.io/static/media/edenred.40df01445ab26a3596e0.png",
+    "static/media/globant.png": "/resume.github.io/static/media/globant.1db56bc7102175795e91.png",
+    "static/media/itau.png": "/resume.github.io/static/media/itau.878dab949072ffc3a8e1.png",
+    "static/media/groupon.png": "/resume.github.io/static/media/groupon.ec4cd2d130cebc73f506.png",
+    "static/media/falabella.png": "/resume.github.io/static/media/falabella.110f00e0b89952aa7ea1.png",
+    "static/media/exanova.png": "/resume.github.io/static/media/exanova.210d4f4d49f04287189f.png",
     "index.html": "/resume.github.io/index.html",
-    "main.8812d969.js.map": "/resume.github.io/static/js/main.8812d969.js.map"
+    "main.725cdf92.js.map": "/resume.github.io/static/js/main.725cdf92.js.map"
   },
   "entrypoints": [
-    "static/js/main.8812d969.js"
+    "static/js/main.725cdf92.js"
   ]
 }
