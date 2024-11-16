@@ -130,7 +130,12 @@ const WorkList = () => {
           <h5>Jun 2021 - Current</h5>
         </StyledYearCompany>
       </StyledBox>
-
+      {false && (
+        <Accordeon
+          title="Responsabilities"
+          content={autodeskResponsabilities}
+        />
+      )}
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
@@ -144,7 +149,6 @@ const WorkList = () => {
             sx={{ width: 56, height: 56 }}
           />{" "}
         </AvatarGroup>
-
         <StyledText>
           <h4>Full Stack Developer</h4>
           <p>
@@ -158,6 +162,12 @@ const WorkList = () => {
           <h5>Jan 2021 - Jun 2021</h5>
         </StyledYearCompany>
       </StyledBox>
+      {false && (
+        <Accordeon
+          title="Responsibilities"
+          content={itAxiomaResponsibilities}
+        />
+      )}
       <StyledBox>
         <Avatar
           alt="Groupon"
@@ -177,6 +187,9 @@ const WorkList = () => {
           <h5>Jun 2020 - Jan 2021</h5>
         </StyledYearCompany>
       </StyledBox>
+      {false && (
+        <Accordeon title="Responsibilities" content={grouponResponsibilities} />
+      )}
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
@@ -190,7 +203,6 @@ const WorkList = () => {
             sx={{ width: 56, height: 56 }}
           />{" "}
         </AvatarGroup>
-
         <StyledText>
           <h4>Full Stack Developer</h4>
           <p>
@@ -205,7 +217,9 @@ const WorkList = () => {
           <h5>Jan 2020 - Jun 2020</h5>
         </StyledYearCompany>
       </StyledBox>
-
+      {false && (
+        <Accordeon title="Responsibilities" content={exanovaResponsibilities} />
+      )}
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
@@ -239,7 +253,12 @@ const WorkList = () => {
           <h5>Nov 2018 - Dec 2019</h5>
         </StyledYearCompany>
       </StyledBox>
-
+      {false && (
+        <Accordeon
+          title="Responsibilities"
+          content={deloitteResponsibilities}
+        />
+      )}
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
@@ -266,6 +285,9 @@ const WorkList = () => {
           <h5>Jan 2017 - Nov 2018</h5>
         </StyledYearCompany>
       </StyledBox>
+      {false && (
+        <Accordeon title="Responsibilities" content={ibmResponsibilities} />
+      )}
     </>
   );
 };

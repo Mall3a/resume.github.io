@@ -52,6 +52,18 @@ const EducationList = () => {
           <h5>2018 - 2022</h5>
           <h4>Software Engineer</h4>
           <h5>IP Duoc UC</h5>
+          {false && (
+            <a
+              href={require("../../files/CERT_TITULO_DUOC_INGENIERO.pdf")}
+              download
+            >
+              <FontAwesomeIcon
+                color="darkblue"
+                icon={faDownload}
+                aria-hidden="true"
+              ></FontAwesomeIcon>
+            </a>
+          )}
         </StyledCard>
       </StyledListItem>
       <StyledListItem>
@@ -59,6 +71,18 @@ const EducationList = () => {
           <h5>2015 - 2017</h5>
           <h4>Software Developer</h4>
           <h5>IP Duoc UC</h5>
+          {false && (
+            <a
+              href={require("../../files/CERT_TITULO_DUOC_ANALISTA.pdf")}
+              download
+            >
+              <FontAwesomeIcon
+                color="darkblue"
+                icon={faDownload}
+                aria-hidden="true"
+              ></FontAwesomeIcon>
+            </a>
+          )}
         </StyledCard>
       </StyledListItem>
       {false && (
@@ -68,6 +92,18 @@ const EducationList = () => {
             <h5>2015 - 2015</h5>
             <h4>Bilingual Executive Assistant</h4>
             <h5>CFT Manpower</h5>
+            {false && (
+              <a
+                href={require("../../files/CERT_TITULO_MANPOWER.pdf")}
+                download
+              >
+                <FontAwesomeIcon
+                  color="darkblue"
+                  icon={faDownload}
+                  aria-hidden="true"
+                ></FontAwesomeIcon>
+              </a>
+            )}
           </StyledCard>
         </StyledListItem>
       )}
@@ -78,6 +114,15 @@ const EducationList = () => {
             <h5>2010 - 2014</h5>
             <h4>Mandarin Chinese Translator</h4>
             <h5>UCINF University</h5>
+            {false && (
+              <a href={require("../../files/CERT_TITULO_UCINF.pdf")} download>
+                <FontAwesomeIcon
+                  color="darkblue"
+                  icon={faDownload}
+                  aria-hidden="true"
+                ></FontAwesomeIcon>
+              </a>
+            )}
           </StyledCard>
         </StyledListItem>
       }
