@@ -56,13 +56,7 @@ const ToolsList = () => {
           ></FontAwesomeIcon>
         }
       />
-      <Chip
-        label="Prettier"
-        color="info"
-        icon={
-          <FontAwesomeIcon icon={faSearch} aria-hidden="true"></FontAwesomeIcon>
-        }
-      />
+
       <Chip
         label="Axios"
         color="warning"
@@ -119,7 +113,7 @@ const ToolsList = () => {
         }
       />
       <Chip
-        label="Mocha"
+        label="GraphQL"
         color="error"
         icon={
           <FontAwesomeIcon icon={faCogs} aria-hidden="true"></FontAwesomeIcon>

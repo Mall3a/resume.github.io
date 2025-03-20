@@ -127,7 +127,7 @@ const WorkList = () => {
         </StyledText>
         <h5 style={{ color: "black" }}>Globant - Autodesk</h5>
         <StyledYearCompany>
-          <h5>Jun 2021 - Current</h5>
+          <h5>Jun 2021 - Feb 2025</h5>
         </StyledYearCompany>
       </StyledBox>
       {false && (
