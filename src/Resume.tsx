@@ -220,13 +220,14 @@ const Resume = ({}) => {
               <StyledTitle2>Summary</StyledTitle2>
             </TitleContainer>
             <p>
-              I have a total of 8 years of professional experience in the IT
-              industry, mostly in Front-End web development using React with
-              Javascript and Typescript. I also have experience in Back-End web
-              development using Java with Spring Boot developing Rest APIs and
-              developing RPAs using BluePrism Software. I have worked with agile
-              methodology, and used different front-end frameworks and
-              libraries.
+              I am a Web UI Developer with 8 years of experience in the IT
+              industry, specializing in Front-End development with React,
+              JavaScript, and TypeScript. I also have experience in Back-End
+              development using Java and Spring Boot to create REST APIs, as
+              well as in RPA automation with BluePrism. I am passionate about
+              delivering user-centric, high-quality interfaces and am looking
+              for a role where I can enjoy my work, building projects that are
+              both creative and fulfilling.
             </p>
             {false && (
               <>
