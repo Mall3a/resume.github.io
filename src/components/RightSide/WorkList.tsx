@@ -127,7 +127,7 @@ const WorkList = () => {
         </StyledText>
         <h5 style={{ color: "black" }}>Globant - Autodesk</h5>
         <StyledYearCompany>
-          <h5>Jun 2021 - Feb 2025</h5>
+          <h5>Jun 2021 - Mar 2025</h5>
         </StyledYearCompany>
       </StyledBox>
       {false && (
@@ -260,11 +260,23 @@ const WorkList = () => {
         />
       )}
       <StyledBox>
-        <AvatarGroup max={2}>
+        <AvatarGroup
+          max={2}
+          sx={{
+            "&& .MuiAvatar-root": {
+              borderWidth: 2,
+              borderStyle: "solid",
+              borderColor: "lightgray",
+            },
+          }}
+        >
           <Avatar
             alt="IBM de Chile SAC"
             src={require("../../images/ibm.png")}
-            sx={{ width: 54, height: 56 }}
+            sx={{
+              width: 54,
+              height: 56,
+            }}
           />
           <Avatar
             alt="Itaú Bank"

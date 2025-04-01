@@ -51,13 +51,13 @@ p {
 const StyledContainer = styled.div`
   position: relative;
   width: 100%;
-  max-width: 1052px;
-  min-height: 1000px;
-  background: #fff;
-  margin: 50px;
+  max-width: 1123px;
+  // min-height: 1000px;
+  // background: #fff;
+  // margin: 50px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+  // box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 
   @media (max-width: 1000px) {
     margin: 10px;
@@ -220,14 +220,14 @@ const Resume = ({}) => {
               <StyledTitle2>Summary</StyledTitle2>
             </TitleContainer>
             <p>
-              I am a Web UI Developer with 8 years of experience in the IT
+              I'm a Web UI Developer with 8 years of experience in the IT
               industry, specializing in Front-End development with React,
               JavaScript, and TypeScript. I also have experience in Back-End
               development using Java and Spring Boot to create REST APIs, as
-              well as in RPA automation with BluePrism. I am passionate about
-              delivering user-centric, high-quality interfaces and am looking
-              for a role where I can enjoy my work, building projects that are
-              both creative and fulfilling.
+              well as in RPA automation with BluePrism. I'm passionate about
+              delivering high-quality user interfaces and am looking for a role
+              where I can enjoy my work, building projects that are both
+              creative and fulfilling.
             </p>
             {false && (
               <>

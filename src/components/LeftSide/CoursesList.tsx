@@ -47,13 +47,18 @@ const CoursesList = () => {
           <Institution>
             Confucius Institute - Pontifical Catholic University of Chile
           </Institution>
-          <a href={require("../../files/CERT_CURSO_INSTCONFUCIO.pdf")} download>
-            <FontAwesomeIcon
-              color="white"
-              icon={faDownload}
-              aria-hidden="true"
-            ></FontAwesomeIcon>
-          </a>
+          {false && (
+            <a
+              href={require("../../files/CERT_CURSO_INSTCONFUCIO.pdf")}
+              download
+            >
+              <FontAwesomeIcon
+                color="white"
+                icon={faDownload}
+                aria-hidden="true"
+              ></FontAwesomeIcon>
+            </a>
+          )}
         </Container>
       </StyledLi>
     </StyledUl>

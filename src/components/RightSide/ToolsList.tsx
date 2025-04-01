@@ -258,6 +258,13 @@ const ToolsList = () => {
           <FontAwesomeIcon icon={faAtom} aria-hidden="true"></FontAwesomeIcon>
         }
       />
+      <Chip
+        label="Redux Toolkit"
+        color="secondary"
+        icon={
+          <FontAwesomeIcon icon={faSync} aria-hidden="true"></FontAwesomeIcon>
+        }
+      />
     </Stack>
   );
 };

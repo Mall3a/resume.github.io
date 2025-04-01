@@ -64,7 +64,9 @@ const ContactInfoList = () => {
                 />
               </StyledIcon>
             </ListItemIcon>
-            <a href="https://bit.ly/46NCjlk">/constanza-mallea</a>
+            <a href="https://www.linkedin.com/in/constanza-mallea/">
+              /constanza-mallea
+            </a>
           </ListItemButton>
         </ListItem>
         {false && (
