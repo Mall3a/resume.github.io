@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/resume.github.io/static/js/main.cc0fa7e3.js",
+    "main.js": "/resume.github.io/static/js/main.0fb49be5.js",
     "static/media/cencosud-scotiabank.png": "/resume.github.io/static/media/cencosud-scotiabank.5d72761ff6a0fa3823b8.png",
     "static/media/CERT_CURSO_INSTCONFUCIO.pdf": "/resume.github.io/static/media/CERT_CURSO_INSTCONFUCIO.3bfea5cedb00a9a3c9c5.pdf",
     "static/media/profilePicture.png": "/resume.github.io/static/media/profilePicture.f45974956cd0d408d812.png",
@@ -11,9 +11,9 @@
     "static/media/falabella.png": "/resume.github.io/static/media/falabella.110f00e0b89952aa7ea1.png",
     "static/media/exanova.png": "/resume.github.io/static/media/exanova.210d4f4d49f04287189f.png",
     "index.html": "/resume.github.io/index.html",
-    "main.cc0fa7e3.js.map": "/resume.github.io/static/js/main.cc0fa7e3.js.map"
+    "main.0fb49be5.js.map": "/resume.github.io/static/js/main.0fb49be5.js.map"
   },
   "entrypoints": [
-    "static/js/main.cc0fa7e3.js"
+    "static/js/main.0fb49be5.js"
   ]
 }
