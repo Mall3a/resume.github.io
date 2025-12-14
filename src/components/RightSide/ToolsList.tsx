@@ -3,27 +3,24 @@ import {
   faAtom,
   faChartBar,
   faCheck,
-  faCheckCircle,
   faClock,
   faCode,
-  faCodeBranch,
   faCogs,
   faComputer,
-  faCube,
   faDatabase,
-  faGlobe,
-  faLightbulb,
   faMicroscope,
   faPalette,
   faRainbow,
   faRefresh,
-  faRobot,
   faSearch,
   faSearchMinus,
-  faSpellCheck,
   faSync,
   faTasks,
-  faTimesCircle,
+  faGlobe,
+  faCube,
+  faCodeBranch,
+  faLeaf,
+  faCoffee,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Chip, Stack } from "@mui/material";
@@ -32,238 +29,184 @@ import React from "react";
 const ToolsList = () => {
   return (
     <Stack direction="row" spacing={1} flexWrap={"wrap"} gap={2}>
+      {/* Core */}
       <Chip
-        label="Storybook"
+        label="React"
         color="primary"
-        icon={
-          <FontAwesomeIcon icon={faCode} aria-hidden="true"></FontAwesomeIcon>
-        }
+        icon={<FontAwesomeIcon icon={faAtom} />}
       />
       <Chip
-        label="Jira"
-        color="success"
-        icon={
-          <FontAwesomeIcon icon={faTasks} aria-hidden="true"></FontAwesomeIcon>
-        }
+        label="TypeScript"
+        color="primary"
+        icon={<FontAwesomeIcon icon={faCode} />}
       />
       <Chip
-        label="Bootstrap"
-        color="secondary"
-        icon={
-          <FontAwesomeIcon
-            icon={faRainbow}
-            aria-hidden="true"
-          ></FontAwesomeIcon>
-        }
+        label="JavaScript"
+        color="primary"
+        icon={<FontAwesomeIcon icon={faCode} />}
       />
 
-      <Chip
-        label="Axios"
-        color="warning"
-        icon={
-          <FontAwesomeIcon
-            icon={faDatabase}
-            aria-hidden="true"
-          ></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Agile Development"
-        color="warning"
-        icon={
-          <FontAwesomeIcon
-            icon={faComputer}
-            aria-hidden="true"
-          ></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Moment.js"
-        color="secondary"
-        icon={
-          <FontAwesomeIcon icon={faClock} aria-hidden="true"></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Cypress.io"
-        color="info"
-        icon={
-          <FontAwesomeIcon icon={faSearch} aria-hidden="true"></FontAwesomeIcon>
-        }
-      />
+      {/* UI / Styling */}
       <Chip
         label="Material-UI"
         color="info"
-        icon={
-          <FontAwesomeIcon icon={faSearch} aria-hidden="true"></FontAwesomeIcon>
-        }
+        icon={<FontAwesomeIcon icon={faPalette} />}
       />
       <Chip
-        label="Prettier"
-        color="warning"
-        icon={
-          <FontAwesomeIcon icon={faCode} aria-hidden="true"></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Jest"
+        label="TailwindCSS"
         color="info"
-        icon={
-          <FontAwesomeIcon icon={faCheck} aria-hidden="true"></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="GraphQL"
-        color="error"
-        icon={
-          <FontAwesomeIcon icon={faCogs} aria-hidden="true"></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="ESLint"
-        color="primary"
-        icon={
-          <FontAwesomeIcon
-            icon={faCheckCircle}
-            aria-hidden="true"
-          ></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Enzyme"
-        color="secondary"
-        icon={
-          <FontAwesomeIcon
-            icon={faMicroscope}
-            aria-hidden="true"
-          ></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Lodash"
-        color="success"
-        icon={
-          <FontAwesomeIcon icon={faCogs} aria-hidden="true"></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Chart.js"
-        color="primary"
-        icon={
-          <FontAwesomeIcon
-            icon={faChartBar}
-            aria-hidden="true"
-          ></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Three.js"
-        color="warning"
-        icon={
-          <FontAwesomeIcon icon={faCube} aria-hidden="true"></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Backbone.js"
-        color="secondary"
-        icon={
-          <FontAwesomeIcon
-            icon={faCodeBranch}
-            aria-hidden="true"
-          ></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Next.js"
-        color="info"
-        icon={
-          <FontAwesomeIcon
-            icon={faArrowRight}
-            aria-hidden="true"
-          ></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Redux"
-        color="success"
-        icon={
-          <FontAwesomeIcon icon={faSync} aria-hidden="true"></FontAwesomeIcon>
-        }
+        icon={<FontAwesomeIcon icon={faPalette} />}
       />
       <Chip
         label="Sass"
         color="primary"
-        icon={
-          <FontAwesomeIcon
-            icon={faPalette}
-            aria-hidden="true"
-          ></FontAwesomeIcon>
-        }
+        icon={<FontAwesomeIcon icon={faPalette} />}
       />
       <Chip
-        label="MobX"
+        label="Styled-components"
         color="primary"
-        icon={
-          <FontAwesomeIcon icon={faAtom} aria-hidden="true"></FontAwesomeIcon>
-        }
+        icon={<FontAwesomeIcon icon={faPalette} />}
       />
+
+      {/* State / Data */}
       <Chip
-        label="React Testing Library"
-        color="error"
-        icon={
-          <FontAwesomeIcon
-            icon={faSearchMinus}
-            aria-hidden="true"
-          ></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="BluePrism"
-        color="secondary"
-        icon={
-          <FontAwesomeIcon icon={faRobot} aria-hidden="true"></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Postman"
-        color="warning"
-        icon={
-          <FontAwesomeIcon icon={faCode} aria-hidden="true"></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="REST API"
+        label="Redux"
         color="success"
-        icon={
-          <FontAwesomeIcon
-            icon={faRefresh}
-            aria-hidden="true"
-          ></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Figma"
-        color="info"
-        icon={
-          <FontAwesomeIcon
-            icon={faPalette}
-            aria-hidden="true"
-          ></FontAwesomeIcon>
-        }
-      />
-      <Chip
-        label="Spring Boot"
-        color="primary"
-        icon={
-          <FontAwesomeIcon icon={faAtom} aria-hidden="true"></FontAwesomeIcon>
-        }
+        icon={<FontAwesomeIcon icon={faSync} />}
       />
       <Chip
         label="Redux Toolkit"
         color="secondary"
-        icon={
-          <FontAwesomeIcon icon={faSync} aria-hidden="true"></FontAwesomeIcon>
-        }
+        icon={<FontAwesomeIcon icon={faSync} />}
+      />
+      <Chip
+        label="Zustand"
+        color="primary"
+        icon={<FontAwesomeIcon icon={faCube} />}
+      />
+      <Chip
+        label="React Query"
+        color="primary"
+        icon={<FontAwesomeIcon icon={faDatabase} />}
+      />
+
+      {/* Routing */}
+      <Chip
+        label="React Router"
+        color="secondary"
+        icon={<FontAwesomeIcon icon={faArrowRight} />}
+      />
+
+      {/* Build */}
+      <Chip
+        label="Vite"
+        color="secondary"
+        icon={<FontAwesomeIcon icon={faGlobe} />}
+      />
+
+      {/* Testing */}
+      <Chip
+        label="Jest"
+        color="info"
+        icon={<FontAwesomeIcon icon={faCheck} />}
+      />
+      <Chip
+        label="Cypress.io"
+        color="info"
+        icon={<FontAwesomeIcon icon={faSearch} />}
+      />
+      <Chip
+        label="React Testing Library"
+        color="error"
+        icon={<FontAwesomeIcon icon={faSearchMinus} />}
+      />
+
+      {/* APIs */}
+      <Chip
+        label="REST API"
+        color="success"
+        icon={<FontAwesomeIcon icon={faRefresh} />}
+      />
+      <Chip
+        label="Axios"
+        color="warning"
+        icon={<FontAwesomeIcon icon={faDatabase} />}
+      />
+      <Chip
+        label="GraphQL"
+        color="error"
+        icon={<FontAwesomeIcon icon={faCogs} />}
+      />
+      <Chip
+        label="Apollo Client"
+        color="primary"
+        icon={<FontAwesomeIcon icon={faCogs} />}
+      />
+
+      {false && (
+        <>
+          {/* Backend */}
+          <Chip
+            label="Node.js"
+            color="success"
+            icon={<FontAwesomeIcon icon={faGlobe} />}
+          />
+          <Chip
+            label="Express"
+            color="success"
+            icon={<FontAwesomeIcon icon={faCogs} />}
+          />
+        </>
+      )}
+
+      {/* Tools */}
+      <Chip
+        label="Storybook"
+        color="primary"
+        icon={<FontAwesomeIcon icon={faCode} />}
+      />
+      <Chip
+        label="Jira"
+        color="success"
+        icon={<FontAwesomeIcon icon={faTasks} />}
+      />
+      <Chip
+        label="Git"
+        color="secondary"
+        icon={<FontAwesomeIcon icon={faCodeBranch} />}
+      />
+      <Chip
+        label="GitHub"
+        color="secondary"
+        icon={<FontAwesomeIcon icon={faCodeBranch} />}
+      />
+
+      {/* Design */}
+      <Chip
+        label="Figma"
+        color="info"
+        icon={<FontAwesomeIcon icon={faPalette} />}
+      />
+
+      {/* Frameworks */}
+      {false && (
+        <Chip
+          label="Next.js"
+          color="info"
+          icon={<FontAwesomeIcon icon={faArrowRight} />}
+        />
+      )}
+
+      {/* Java Backend */}
+      <Chip
+        label="Java"
+        color="primary"
+        icon={<FontAwesomeIcon icon={faCoffee} />}
+      />
+      <Chip
+        label="Spring Boot"
+        color="success"
+        icon={<FontAwesomeIcon icon={faLeaf} />}
       />
     </Stack>
   );

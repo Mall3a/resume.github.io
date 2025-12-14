@@ -2,9 +2,14 @@ import { Avatar, AvatarGroup } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 import Accordeon from "../Common/Accordeon";
+import ExperienceList from "../Common/ExperienceList";
+
 const StyledYearCompany = styled.div`
   min-width: 150px;
   justify-self: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   h5 {
     text-transform: uppercase;
     color: #848c90;
@@ -102,6 +107,13 @@ const WorkList = () => {
     "Use of XML-related technologies, including XML, XSL and XSD to handle data transformation and data integration and (SOAP services)",
   ];
 
+  const autodeskItems = [
+    "Front-End development for multiple Autodesk platforms using React, TypeScript, JavaScript, Redux Toolkit, MobX, CSS/Sass, styled-components, React Testing Library, Cypress, Storybook and Git.",
+    "Migrated legacy code and built new features for internal admin portals and Autodesk Construction Cloud.",
+    "Implemented 3D visualization features (color assignment, carbon data display).",
+    "Built reusable components and automated tests with Jest, RTL, and Cypress.",
+    "Modernized UI design and improved performance through refactoring.",
+  ];
   return (
     <>
       <StyledBox>
@@ -128,6 +140,7 @@ const WorkList = () => {
         <h5 style={{ color: "black" }}>Globant - Autodesk</h5>
         <StyledYearCompany>
           <h5>Jun 2021 - Mar 2025</h5>
+          <h6>~3 years and 10 months</h6>
         </StyledYearCompany>
       </StyledBox>
       {false && (
@@ -160,6 +173,7 @@ const WorkList = () => {
         <h5 style={{ color: "black" }}>IT Axioma - Cencosud-Scotiabank</h5>
         <StyledYearCompany>
           <h5>Jan 2021 - Jun 2021</h5>
+          <h6>~6 months</h6>
         </StyledYearCompany>
       </StyledBox>
       {false && (
@@ -185,6 +199,7 @@ const WorkList = () => {
         <h5 style={{ color: "black" }}>Groupon</h5>
         <StyledYearCompany>
           <h5>Jun 2020 - Jan 2021</h5>
+          <h6>~7 months</h6>
         </StyledYearCompany>
       </StyledBox>
       {false && (
@@ -215,6 +230,7 @@ const WorkList = () => {
         <h5 style={{ color: "black" }}>Exanova Technology - Edenred</h5>
         <StyledYearCompany>
           <h5>Jan 2020 - Jun 2020</h5>
+          <h6>~6 months</h6>
         </StyledYearCompany>
       </StyledBox>
       {false && (
@@ -251,6 +267,7 @@ const WorkList = () => {
         </h5>
         <StyledYearCompany>
           <h5>Nov 2018 - Dec 2019</h5>
+          <h6>~1 year and 1 month</h6>
         </StyledYearCompany>
       </StyledBox>
       {false && (
@@ -295,6 +312,7 @@ const WorkList = () => {
         <h5 style={{ color: "black" }}>IBM de Chile SAC - Itaú Bank</h5>
         <StyledYearCompany>
           <h5>Jan 2017 - Nov 2018</h5>
+          <h6>~1 year and 10 months</h6>
         </StyledYearCompany>
       </StyledBox>
       {false && (

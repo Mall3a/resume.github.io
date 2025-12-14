@@ -220,14 +220,14 @@ const Resume = ({}) => {
               <StyledTitle2>Summary</StyledTitle2>
             </TitleContainer>
             <p>
-              I'm a Web UI Developer with 8 years of experience in the IT
-              industry, specializing in Front-End development with React,
-              JavaScript, and TypeScript. I also have experience in Back-End
-              development using Java and Spring Boot to create REST APIs, as
-              well as in RPA automation with BluePrism. I'm passionate about
-              delivering high-quality user interfaces and am looking for a role
-              where I can enjoy my work, building projects that are both
-              creative and fulfilling.
+              Front-End Developer with 5 years of experience building modern,
+              accessible interfaces using React, TypeScript and JavaScript. I
+              focus on clean UI, good communication, and reliable delivery. I
+              enjoy working in agile teams with clear scope and steady
+              workflows, contributing to products that value usability and
+              thoughtful design. I’ve collaborated on large-scale projects for
+              companies such as Autodesk, Itaú, Cencosud, Scotiabank, Edenred,
+              Groupon, Falabella, Cardif, and Sodimac.
             </p>
             {false && (
               <>

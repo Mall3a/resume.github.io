@@ -25,13 +25,13 @@ const SkillsList = () => {
   return (
     <>
       <StyledBox>
-        <Rating placeholder="Javascript ES6" value={4}></Rating>
+        <Rating placeholder="Javascript ES6" value={3.5}></Rating>
       </StyledBox>
       <StyledBox>
         <Rating placeholder="Typescript" value={3}></Rating>
       </StyledBox>
       <StyledBox>
-        <Rating placeholder="React" value={4}></Rating>
+        <Rating placeholder="React" value={3.5}></Rating>
       </StyledBox>
       <StyledBox>
         <Rating placeholder="Git" value={3}></Rating>
@@ -43,10 +43,7 @@ const SkillsList = () => {
         <Rating placeholder="CSS3" value={3.5}></Rating>
       </StyledBox>
       <StyledBox>
-        <Rating placeholder="Styled-components" value={4}></Rating>
-      </StyledBox>
-      <StyledBox>
-        <Rating placeholder="Java" value={2.5}></Rating>
+        <Rating placeholder="Java" value={2}></Rating>
       </StyledBox>
     </>
   );
