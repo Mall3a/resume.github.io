@@ -1,9 +1,7 @@
 import * as React from "react";
-import Rating from "@mui/material/Rating";
 import Box from "@mui/material/Box";
-import StarIcon from "@mui/icons-material/Star";
 
-const labels: { [index: string]: string } = {
+const levels: { [key: number]: string } = {
   0.5: "Basic",
   1: "Basic",
   1.5: "Intermediate",
@@ -11,41 +9,50 @@ const labels: { [index: string]: string } = {
   2.5: "Intermediate",
   3: "Advanced",
   3.5: "Advanced",
-  4: "Expert",
-  4.5: "Expert",
-  5: "Expert",
+  4: "Advanced",
+  4.5: "Advanced",
+  5: "Advanced",
 };
 
-function getLabelText(value: number) {
-  return `${value} Star${value !== 1 ? "s" : ""}, ${labels[value]}`;
-}
-
 export default function RatingComponent(props: {
-  placeholder: string | undefined;
-  value: number | null;
+  placeholder?: string;
+  value: number;
 }) {
-  const { value } = props;
+  const { placeholder, value } = props;
+
+  const getBg = (i: number) => {
+    if (value >= i) return "#faaf03";
+    if (value >= i - 0.5)
+      return "linear-gradient(90deg, #faaf03 50%, #2d3660 50%)";
+    return "#2d3660";
+  };
 
   return (
-    <>
-      <span>{props.placeholder}</span>
-      <Box
-        sx={{
-          width: 200,
-          display: "flex",
-          alignItems: "center",
-        }}
-      >
-        <Rating
-          name="feedback"
-          value={value}
-          precision={0.5}
-          getLabelText={getLabelText}
-          readOnly
-          emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
-        />
-        {value !== null && <Box sx={{ ml: 2 }}>{labels[value]}</Box>}
+    <Box
+      sx={{
+        display: "grid",
+        gridTemplateColumns: "100px 1fr auto",
+        alignItems: "center",
+        gap: 1.5,
+      }}
+    >
+      <span>{placeholder}</span>
+
+      <Box sx={{ display: "flex", gap: 1 }}>
+        {[1, 2, 3, 4, 5].map((i) => (
+          <Box
+            key={i}
+            sx={{
+              width: 15,
+              height: 15,
+              borderRadius: "50%",
+              background: getBg(i),
+            }}
+          />
+        ))}
       </Box>
-    </>
+
+      <Box sx={{ fontSize: 15, color: "white" }}>{levels[value]}</Box>
+    </Box>
   );
 }

@@ -221,13 +221,11 @@ const Resume = ({}) => {
             </TitleContainer>
             <p>
               Front-End Developer with 5 years of experience building modern,
-              accessible interfaces using React, TypeScript and JavaScript. I
-              focus on clean UI, good communication, and reliable delivery. I
-              enjoy working in agile teams with clear scope and steady
-              workflows, contributing to products that value usability and
-              thoughtful design. I’ve collaborated on large-scale projects for
-              companies such as Autodesk, Itaú, Cencosud, Scotiabank, Edenred,
-              Groupon, Falabella, Cardif, and Sodimac.
+              accessible web interfaces using React, TypeScript, and JavaScript.
+              Experienced in maintaining and improving existing products,
+              developing new features, and collaborating within agile teams.
+              Focused on clean code, usability, and delivering reliable,
+              well-structured UI solutions for large-scale applications.
             </p>
             {false && (
               <>
