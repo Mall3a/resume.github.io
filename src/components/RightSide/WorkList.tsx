@@ -2,7 +2,6 @@ import { Avatar, AvatarGroup } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 import Accordeon from "../Common/Accordeon";
-import ExperienceList from "../Common/ExperienceList";
 
 const StyledYearCompany = styled.div`
   min-width: 150px;
@@ -61,59 +60,6 @@ const StyledBox = styled.div`
 `;
 
 const WorkList = () => {
-  const autodeskResponsabilities = [
-    "As a contractor for Autodesk, develop front-end solutions using SASS, styled-components, JavaScript, TypeScript, React, Redux, Redux Toolkit, MobX and Storybook",
-    "Conduct thorough unit tests using Jest, React Testing Library, and Cypress",
-    "Participate in Agile development processes",
-  ];
-
-  const itAxiomaResponsibilities = [
-    "Use React, Redux, Express JS, JavaScript, HTML, CSS, and Storybook framework to create interactive and responsive user interfaces.",
-    "Participate in Agile development processes",
-    "Develop a Backend for Frontend (BFF) and RESTful APIs using Java EE and Spring Boot, following a hexagonal architecture, to enable efficient data retrieval and manipulation.",
-    "Create react components in the client’s private library, using the Storybook framework.",
-    "Use GIT as a version control tool.",
-    "Review and approve pull requests from the development team.",
-  ];
-
-  const grouponResponsibilities = [
-    "Collaborate closely with the development team to understand project requirements and translate them into functional and visually appealing features.",
-    "Use React, JavaScript, HTML, CSS, and GIT as version control tool to enhance the user interface.",
-    "Work on bug fixes to maintain a high quality and error-free website.",
-  ];
-
-  const exanovaResponsibilities = [
-    "Collaborate with the development team to understand project requirements and translate them into functional and visually appealing features.",
-    "Use Angular 8, TypeScript, HTML, CSS, C#, Angular Material, and Bootstrap libraries to implement and enhance the user interface.",
-    "Implement responsive design principles",
-    "Participate in Agile development processes, using Azure DevOps as the project management platform.",
-    "Use GIT as version control tool",
-    "Collaborate with backend developers to integrate rest API.",
-  ];
-
-  const deloitteResponsibilities = [
-    "Collaborate with the clients to understand their specific automation requirements and translate them into effective BluePrism solutions.",
-    "Develop RPAs utilizing BluePrism software to automate key processes for clients such as Falabella Retail, Falabella Bank, BNP Paribas Cardif, and Sodimac.",
-    "Conduct thorough testing and debugging of BluePrism automation workflows to ensure smooth and error-free process execution.",
-    "Integrate BluePrism automation with other systems and technologies to Implement efficient and accurate RPA solutions.",
-  ];
-
-  const ibmResponsibilities = [
-    "First 4 months of internship, then was offered a permanent position in the team",
-    "Identify and resolve bugs in the web to improve the user interface",
-    "Develop and enhance front end functionalities",
-    "Assist in the training and supervision of a fellow developer assigned to the team",
-    "Use of Javascript, HTML, CSS, IBM WebSphere Portal 8, Java Helper Classes and IBM Rational Team Concert as version control Tool.",
-    "Use of XML-related technologies, including XML, XSL and XSD to handle data transformation and data integration and (SOAP services)",
-  ];
-
-  const autodeskItems = [
-    "Front-End development for multiple Autodesk platforms using React, TypeScript, JavaScript, Redux Toolkit, MobX, CSS/Sass, styled-components, React Testing Library, Cypress, Storybook and Git.",
-    "Migrated legacy code and built new features for internal admin portals and Autodesk Construction Cloud.",
-    "Implemented 3D visualization features (color assignment, carbon data display).",
-    "Built reusable components and automated tests with Jest, RTL, and Cypress.",
-    "Modernized UI design and improved performance through refactoring.",
-  ];
   return (
     <>
       <StyledBox>
@@ -130,11 +76,11 @@ const WorkList = () => {
           />{" "}
         </AvatarGroup>
         <StyledText>
-          <h4>Web UI Developer Ssr Adv</h4>
+          <h4>Web UI Developer — Globant (Autodesk)</h4>
           <p>
-            Working as a contractor for Autodesk, specializing in Front End
-            development, using styled-components, JavaScript, TypeScript, React,
-            Redux, MobX, Storybook, React Testing Library and Cypress.
+            Front-end developer working as a contractor for Autodesk,
+            contributing to development on internal tools and Autodesk
+            Construction Cloud using React and TypeScript.
           </p>
         </StyledText>
         <h5 style={{ color: "black" }}>Globant - Autodesk</h5>
@@ -143,12 +89,15 @@ const WorkList = () => {
           <h6>~3 years and 10 months</h6>
         </StyledYearCompany>
       </StyledBox>
-      {false && (
-        <Accordeon
-          title="Responsabilities"
-          content={autodeskResponsabilities}
-        />
-      )}
+      <Accordeon
+        content={[
+          "Migrated legacy code and improved performance through refactoring and optimizing rendering in micro-frontend architecture",
+          "Built reusable components, improving UI consistency",
+          "Developed and maintained multiple front-end features for multiple Autodesk platforms",
+          "Contribuited building a brand new admin site using Autodesk’s internal UI library.",
+          "Ensured UI quality through automated testing with Jest, React Testing Library, and Cypress.",
+        ]}
+      />
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
@@ -176,12 +125,12 @@ const WorkList = () => {
           <h6>~6 months</h6>
         </StyledYearCompany>
       </StyledBox>
-      {false && (
-        <Accordeon
-          title="Responsibilities"
-          content={itAxiomaResponsibilities}
-        />
-      )}
+      <Accordeon
+        content={[
+          "Built reusable interactive UI components (carousels, modals) in Storybook, improving usability and consistency across the customer portal.",
+          "Strengthened API architecture through BFF implementation following hexagonal architecture.",
+        ]}
+      />
       <StyledBox>
         <Avatar
           alt="Groupon"
@@ -191,9 +140,9 @@ const WorkList = () => {
         <StyledText>
           <h4>Software Development Engineer</h4>
           <p>
-            Front-End developer at Groupon, participating in the modification of
-            their official website using React, JavaScript, CSS, axios, moment
-            and GIT.
+            Front-end developer at Groupon, contributing to develop and refactor
+            features in their main website using React, JavaScript, and CSS,
+            axios and GIT.
           </p>
         </StyledText>
         <h5 style={{ color: "black" }}>Groupon</h5>
@@ -202,9 +151,13 @@ const WorkList = () => {
           <h6>~7 months</h6>
         </StyledYearCompany>
       </StyledBox>
-      {false && (
-        <Accordeon title="Responsibilities" content={grouponResponsibilities} />
-      )}
+      <Accordeon
+        content={[
+          "Enhanced checkout experience",
+          "Resolved major UI bugs for mobile users",
+          "Introduced new delivery features, increasing overall usability",
+        ]}
+      />
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
@@ -219,12 +172,10 @@ const WorkList = () => {
           />{" "}
         </AvatarGroup>
         <StyledText>
-          <h4>Full Stack Developer</h4>
+          <h4>Front End Developer</h4>
           <p>
-            Working as a contractor for Edenred, as a Full Stack developer
-            involved in the creation their private website and utilizing Angular
-            8, C#, TypeScript, HTML, CSS, Angular Material, and Bootstrap
-            libraries.
+            Developed Edenred’s private portal using Angular 8, TypeScript, and
+            Angular Material, HTML, CSS, and Bootstrap libraries.
           </p>
         </StyledText>
         <h5 style={{ color: "black" }}>Exanova Technology - Edenred</h5>
@@ -233,9 +184,12 @@ const WorkList = () => {
           <h6>~6 months</h6>
         </StyledYearCompany>
       </StyledBox>
-      {false && (
-        <Accordeon title="Responsibilities" content={exanovaResponsibilities} />
-      )}
+      <Accordeon
+        content={[
+          "Delivered key UI sections for a private portal using Angular 8, TypeScript, and Angular Material.",
+        ]}
+      />
+
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
@@ -256,9 +210,10 @@ const WorkList = () => {
         <StyledText>
           <h4>RPA Developer & Consultant</h4>
           <p>
-            RPA developer at Deloitte Chile, specializing in developing several
-            RPAs to automate processes for clients such as Falabella Retail &
-            Bank, BNP Paribas Cardif Chile and Sodimac using Blueprism Software.
+            RPA developer at Deloitte Chile, Developed process automation
+            solutions (RPAs) using Blue Prism for banking and retail clients
+            such as Falabella Retail & Bank, BNP Paribas Cardif Chile and
+            Sodimac, replacing manual processes.
           </p>
         </StyledText>
         <h5 style={{ color: "black" }}>
@@ -270,12 +225,12 @@ const WorkList = () => {
           <h6>~1 year and 1 month</h6>
         </StyledYearCompany>
       </StyledBox>
-      {false && (
-        <Accordeon
-          title="Responsibilities"
-          content={deloitteResponsibilities}
-        />
-      )}
+      <Accordeon
+        content={[
+          "Reduced manual workload, minimized errors, and delivered automations that significantly decreased operational time for banking and retail processes.",
+        ]}
+      />
+
       <StyledBox>
         <AvatarGroup
           max={2}
@@ -299,14 +254,14 @@ const WorkList = () => {
             alt="Itaú Bank"
             src={require("../../images/itau.png")}
             sx={{ width: 56, height: 56 }}
-          />{" "}
+          />
         </AvatarGroup>
         <StyledText>
           <h4>IBM Websphere Portal Developer</h4>
           <p>
-            Front-End developer at IBM, and working as a contractor for Itaú
-            Bank, contributing to the creation of the bank private website for
-            individuals and companies using IBM Websphere Portal framework.
+            Front-end developer at IBM, contributing to Itaú Bank’s private
+            banking portal using IBM Websphere Portal framework, JavaScript,
+            HTML, and CSS.
           </p>
         </StyledText>
         <h5 style={{ color: "black" }}>IBM de Chile SAC - Itaú Bank</h5>
@@ -315,9 +270,13 @@ const WorkList = () => {
           <h6>~1 year and 10 months</h6>
         </StyledYearCompany>
       </StyledBox>
-      {false && (
-        <Accordeon title="Responsibilities" content={ibmResponsibilities} />
-      )}
+      <Accordeon
+        content={[
+          "Reduced customer complaints by improving password recovery flow",
+          "created mortgage status section",
+          "Mentored a junior developer",
+        ]}
+      />
     </>
   );
 };

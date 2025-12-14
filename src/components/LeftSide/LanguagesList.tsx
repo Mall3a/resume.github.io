@@ -32,17 +32,19 @@ const LanguagesList = () => {
           }}
         ></div>
       </StyledListItem>
-      <StyledListItem>
-        <span>Mandarin Chinese</span>
-        <ProgressBar value={30} />
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            marginTop: "10px",
-          }}
-        ></div>
-      </StyledListItem>
+      {false && (
+        <StyledListItem>
+          <span>Mandarin Chinese</span>
+          <ProgressBar value={30} />
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              marginTop: "10px",
+            }}
+          ></div>
+        </StyledListItem>
+      )}
     </StyledList>
   );
 };

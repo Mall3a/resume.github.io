@@ -6,7 +6,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import styled from "styled-components";
 
 interface Props {
-  title: string;
+  title?: string;
   content: string[];
 }
 
@@ -16,6 +16,8 @@ const Container = styled.div`
 `;
 
 const StyledItemList = styled.li`
+  margin-top: 10px;
+
   margin-bottom: 10px;
 `;
 const ControlledAccordions = ({ title, content }: Props) => {
@@ -31,13 +33,15 @@ const ControlledAccordions = ({ title, content }: Props) => {
       expanded={expanded === "panel1"}
       onChange={handleChange("panel1")}
     >
-      <AccordionSummary
-        expandIcon={<ExpandMoreIcon />}
-        aria-controls="panel1bh-content"
-        id="panel1bh-header"
-      >
-        <span>{title}</span>
-      </AccordionSummary>
+      {title && (
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1bh-content"
+          id="panel1bh-header"
+        >
+          <span>{title}</span>
+        </AccordionSummary>
+      )}
       <AccordionDetails>
         <Container>
           <ul>

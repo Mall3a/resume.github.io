@@ -54,6 +54,9 @@ const ProfilePicture = () => {
         Constanza Mallea Riveros
         <br />
         <span>Front-End Developer</span>
+        <div>
+          <span>Open to Remote International Roles</span>
+        </div>
       </h2>
     </StyledProfileText>
   );

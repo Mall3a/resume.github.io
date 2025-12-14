@@ -9,7 +9,6 @@ const StyledEducationList = styled.ul`
   margin-bottom: 30px;
   font-size: 16px;
   align-content: center;
-  justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-end;
@@ -108,7 +107,7 @@ const EducationList = () => {
         </StyledListItem>
       )}
 
-      {
+      {false && (
         <StyledListItem>
           <StyledCard>
             <h5>2010 - 2014</h5>
@@ -125,7 +124,7 @@ const EducationList = () => {
             )}
           </StyledCard>
         </StyledListItem>
-      }
+      )}
     </StyledEducationList>
   );
 };

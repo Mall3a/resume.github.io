@@ -195,18 +195,32 @@ const Resume = ({}) => {
             <SkillsList />
           </StyledAbout>
 
-          <StyledAbout>
+          {false && (
+            <StyledAbout>
+              <TitleContainer>
+                <FontAwesomeIcon
+                  fontSize={25}
+                  color="white"
+                  icon={faMousePointer}
+                  aria-hidden="true"
+                ></FontAwesomeIcon>
+                <StyledTitle>Courses</StyledTitle>
+              </TitleContainer>
+              <CoursesList />
+            </StyledAbout>
+          )}
+          <StyledAboutInterests>
             <TitleContainer>
               <FontAwesomeIcon
                 fontSize={25}
                 color="white"
-                icon={faMousePointer}
+                icon={faGear}
                 aria-hidden="true"
               ></FontAwesomeIcon>
-              <StyledTitle>Courses</StyledTitle>
+              <StyledTitle>Tools, Libraries & Frameworks</StyledTitle>
             </TitleContainer>
-            <CoursesList />
-          </StyledAbout>
+            <ToolsList />
+          </StyledAboutInterests>
         </StyledLeftSide>
         <StyledRightSide>
           <StyledAbout>
@@ -220,12 +234,13 @@ const Resume = ({}) => {
               <StyledTitle2>Summary</StyledTitle2>
             </TitleContainer>
             <p>
-              Front-End Developer with 5 years of experience building modern,
-              accessible web interfaces using React, TypeScript, and JavaScript.
-              Experienced in maintaining and improving existing products,
-              developing new features, and collaborating within agile teams.
-              Focused on clean code, usability, and delivering reliable,
-              well-structured UI solutions for large-scale applications.
+              Front-End Developer with 5+ years of experience building modern,
+              accessible, and scalable web interfaces using React, TypeScript,
+              and JavaScript. Experienced in maintaining and improving existing
+              products, building new features, and collaborating remotely with
+              international agile teams. Focused on clean code, usability,
+              performance, and delivering reliable UI solutions for large-scale
+              applications.
             </p>
             {false && (
               <>
@@ -261,18 +276,6 @@ const Resume = ({}) => {
             <StyledTitle2> Work Experience</StyledTitle2>
           </TitleContainer>
           <WorkList />
-          <StyledAboutInterests>
-            <TitleContainer>
-              <FontAwesomeIcon
-                fontSize={25}
-                color="darkblue"
-                icon={faGear}
-                aria-hidden="true"
-              ></FontAwesomeIcon>
-              <StyledTitle2>Tools, Libraries & Frameworks</StyledTitle2>
-            </TitleContainer>
-            <ToolsList />
-          </StyledAboutInterests>
         </StyledRightSide>
       </StyledContainer>
     </>
