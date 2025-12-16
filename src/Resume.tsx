@@ -10,7 +10,7 @@ import {
   faGear,
   faMousePointer,
 } from "@fortawesome/free-solid-svg-icons";
-import ContactInfoList from "./components/LeftSide/ContactInfoList";
+import ContactInfo from "./components/LeftSide/ContactInfo";
 import EducationList from "./components/RightSide/EducationList";
 import LanguagesList from "./components/LeftSide/LanguagesList";
 import ProfilePicture from "./components/LeftSide/ProfilePicture";
@@ -18,6 +18,7 @@ import WorkList from "./components/RightSide/WorkList";
 import SkillsList from "./components/LeftSide/SkillsList";
 import ToolsList from "./components/RightSide/ToolsList";
 import CoursesList from "./components/LeftSide/CoursesList";
+import CertificationsList from "./components/LeftSide/CertificationsList";
 
 const GlobalStyles = createGlobalStyle`
 * {
@@ -161,7 +162,7 @@ const StyledA = styled.a`
   }
 `;
 
-const Resume = ({}) => {
+const Resume = ({ }) => {
   return (
     <>
       <GlobalStyles />
@@ -171,7 +172,7 @@ const Resume = ({}) => {
           <TitleContainer>
             <StyledTitle>Contact Information</StyledTitle>
           </TitleContainer>
-          <ContactInfoList />
+          <ContactInfo />
           <TitleContainer>
             <FontAwesomeIcon
               fontSize={25}
@@ -181,7 +182,7 @@ const Resume = ({}) => {
             ></FontAwesomeIcon>
             <StyledTitle>Languages</StyledTitle>
           </TitleContainer>
-          <LanguagesList></LanguagesList>
+          <LanguagesList />
           <StyledAbout>
             <TitleContainer>
               <FontAwesomeIcon
@@ -207,6 +208,20 @@ const Resume = ({}) => {
                 <StyledTitle>Courses</StyledTitle>
               </TitleContainer>
               <CoursesList />
+            </StyledAbout>
+          )}
+          {false && (
+            <StyledAbout>
+              <TitleContainer>
+                <FontAwesomeIcon
+                  fontSize={25}
+                  color="white"
+                  icon={faMousePointer}
+                  aria-hidden="true"
+                ></FontAwesomeIcon>
+                <StyledTitle>Certifications</StyledTitle>
+              </TitleContainer>
+              <CertificationsList />
             </StyledAbout>
           )}
           <StyledAboutInterests>
@@ -242,19 +257,6 @@ const Resume = ({}) => {
               performance, and delivering reliable UI solutions for large-scale
               applications.
             </p>
-            {false && (
-              <>
-                <br />
-                <p>
-                  I am not currently in Canada. However, I am LMIA-exempt
-                  because I am covered under the Canada-Chile Free Trade
-                  Agreement{" "}
-                  <StyledA href="https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/chile-chili/index.aspx?lang=eng">
-                    (CCFTA)
-                  </StyledA>
-                </p>
-              </>
-            )}
           </StyledAbout>
           <TitleContainer>
             <FontAwesomeIcon
@@ -273,7 +275,7 @@ const Resume = ({}) => {
               icon={faBriefcase}
               aria-hidden="true"
             ></FontAwesomeIcon>
-            <StyledTitle2> Work Experience</StyledTitle2>
+            <StyledTitle2>Work Experience</StyledTitle2>
           </TitleContainer>
           <WorkList />
         </StyledRightSide>

@@ -23,7 +23,7 @@ const Year = styled.div`
   font-size: 14px;
 `;
 
-const CourseName = styled.div`
+const CertificationName = styled.div`
   font-size: 19px;
   font-weight: bold;
 `;
@@ -31,25 +31,24 @@ const Institution = styled.div`
   font-size: 14px;
 `;
 
-const CoursesList = () => {
+const CertificationsList = () => {
   return (
     <StyledUl>
       <StyledLi>
         <Avatar
-          alt="Confucius Institute - Pontifical Catholic University of Chile"
+          alt="Hanban/Confucius Institute Headquarters, China"
           sx={{ width: 56, height: 56 }}
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyEU5MbCUZ-n7mKEMX8NwX0D6EFB2ViY_ytTlex7BysdVIlK5Sf09qFSsYjcPcTm8RDU&usqp=CAU"
+          src={require("../../images/Hanban.png")}
         />
         <Container>
           <Year>2013</Year>
-          <CourseName>Mandarin Chinese Course - Advanced Level</CourseName>
-
+          <CertificationName>HSK (Level 4) Chinese Proficiency Test</CertificationName>
           <Institution>
-            Confucius Institute - Pontifical Catholic University of Chile
+            Hanban/Confucius Institute Headquarters, China
           </Institution>
           {false && (
             <a
-              href={require("../../files/CERT_CURSO_INSTCONFUCIO.pdf")}
+              href={require("../../files/CERT_HSK_LEVEL4.pdf")}
               download
             >
               <FontAwesomeIcon
@@ -65,4 +64,4 @@ const CoursesList = () => {
   );
 };
 
-export default CoursesList;
+export default CertificationsList;

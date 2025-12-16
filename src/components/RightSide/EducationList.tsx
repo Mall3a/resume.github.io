@@ -87,7 +87,6 @@ const EducationList = () => {
       {false && (
         <StyledListItem>
           <StyledCard>
-            {" "}
             <h5>2015 - 2015</h5>
             <h4>Bilingual Executive Assistant</h4>
             <h5>CFT Manpower</h5>
