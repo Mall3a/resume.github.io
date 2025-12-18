@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/resume.github.io/static/js/main.eeec4fb1.js",
+    "main.js": "/resume.github.io/static/js/main.2d8a760e.js",
     "static/media/cencosud-scotiabank.png": "/resume.github.io/static/media/cencosud-scotiabank.5d72761ff6a0fa3823b8.png",
     "static/media/profilePicture.png": "/resume.github.io/static/media/profilePicture.f45974956cd0d408d812.png",
     "static/media/edenred.png": "/resume.github.io/static/media/edenred.40df01445ab26a3596e0.png",
@@ -11,9 +11,9 @@
     "static/media/falabella.png": "/resume.github.io/static/media/falabella.110f00e0b89952aa7ea1.png",
     "static/media/exanova.png": "/resume.github.io/static/media/exanova.210d4f4d49f04287189f.png",
     "index.html": "/resume.github.io/index.html",
-    "main.eeec4fb1.js.map": "/resume.github.io/static/js/main.eeec4fb1.js.map"
+    "main.2d8a760e.js.map": "/resume.github.io/static/js/main.2d8a760e.js.map"
   },
   "entrypoints": [
-    "static/js/main.eeec4fb1.js"
+    "static/js/main.2d8a760e.js"
   ]
 }
