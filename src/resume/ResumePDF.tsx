@@ -33,6 +33,12 @@ export const ResumePDF = () => (
         <Text>{resumeData.summary}</Text>
       </View>
 
+      {/* Skills */}
+      <View>
+        <Text style={sectionTitle}>Skills</Text>
+        <Text>{resumeData.skills.join(' · ')}</Text>
+      </View>
+
       {/* Experience */}
       <View>
         <Text style={sectionTitle}>Experience</Text>
@@ -53,11 +59,14 @@ export const ResumePDF = () => (
           </View>
         ))}
       </View>
-
-      {/* Skills */}
+      {/* Education */}
       <View>
-        <Text style={sectionTitle}>Skills</Text>
-        <Text>{resumeData.skills.join(' · ')}</Text>
+        <Text style={sectionTitle}>Education</Text>
+        {resumeData.education.map((e, i) => (
+          <Text key={i}>
+            {e.degree} — {e.school}, {e.location} ({e.dates})
+          </Text>
+        ))}
       </View>
 
       {/* Languages */}
@@ -69,18 +78,6 @@ export const ResumePDF = () => (
           </Text>
         ))}
       </View>
-
-
-      {/* Education */}
-      <View>
-        <Text style={sectionTitle}>Education</Text>
-        {resumeData.education.map((e, i) => (
-          <Text key={i}>
-            {e.degree} — {e.school}, {e.location} ({e.dates})
-          </Text>
-        ))}
-      </View>
-
       {/* Certifications */}
       <View>
         <Text style={sectionTitle}>Certifications</Text>
@@ -97,7 +94,6 @@ export const ResumePDF = () => (
           </View>
         ))}
       </View>
-
       {/* Courses */}
       <View>
         <Text style={sectionTitle}>Courses</Text>
@@ -107,7 +103,6 @@ export const ResumePDF = () => (
           </Text>
         ))}
       </View>
-
     </Page>
   </Document>
 )
