@@ -3,6 +3,12 @@ export const resumeData = {
   title: 'Front-End Developer | React | TypeScript | JavaScript',
   subtitle: 'Open to Remote International Roles',
   summary: `Front-End Developer with 7+ years of experience in front-end development and 5+ years building modern, accessible, and scalable web interfaces with React, TypeScript, and JavaScript. Experienced in maintaining and improving existing products, delivering new features, and collaborating remotely with international agile teams. Focused on clean code, usability, performance, and reliable UI solutions.`,
+
+  languages: [
+    { name: 'Spanish', level: 'Native' },
+    { name: 'English', level: 'Advanced (Professional Working Proficiency)' }
+  ],
+
   experience: [
     {
       role: 'Web UI Developer',

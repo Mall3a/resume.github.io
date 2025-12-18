@@ -60,6 +60,17 @@ export const ResumePDF = () => (
         <Text>{resumeData.skills.join(' · ')}</Text>
       </View>
 
+      {/* Languages */}
+      <View>
+        <Text style={sectionTitle}>Languages</Text>
+        {resumeData.languages.map((l, i) => (
+          <Text key={i}>
+            {l.name} — {l.level}
+          </Text>
+        ))}
+      </View>
+
+
       {/* Education */}
       <View>
         <Text style={sectionTitle}>Education</Text>
