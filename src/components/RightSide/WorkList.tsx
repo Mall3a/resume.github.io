@@ -65,6 +65,46 @@ const WorkList = () => {
       <StyledBox>
         <AvatarGroup max={2}>
           <Avatar
+            alt="2Brains part of AcidLabs"
+            src={require("../../images/2brains2.jpeg")}
+            sx={{ width: 56, height: 56 }}
+          />
+          <Avatar
+            alt="LatAm Airlines"
+            src={require("../../images/latamairlines.webp")}
+            sx={{
+              width: 56,
+              height: 56,
+              border: "2px solid lightgray!important",
+            }}
+          />
+        </AvatarGroup>
+        <StyledText>
+          <h4>
+            FrontEnd Developer — 2Brains part of AcidLabs (Latam Airlines)
+          </h4>
+          <p>
+            Working as a contractor for Latam Airlines, as a Front End developer
+            using HTML, CSS, Styled Components, JavaScript, Typescript, Zustand,
+            React, Context API, Next.JS, GIT, gitlab. Salesforce. Cursor. Claude
+            AI and other AI agents. Prompt engineering.
+          </p>
+        </StyledText>
+        <h5 style={{ color: "black" }}>2Brains - Latam Airlines</h5>
+        <StyledYearCompany>
+          <h5>Mar 2026 - Present</h5>
+          <h6>~2 months</h6>
+        </StyledYearCompany>
+      </StyledBox>
+      <Accordeon
+        content={[
+          "Added new features to the latam Airlines home Page",
+          "Added new features to latam Airlines email templates through Salesforce Marketing Cloud",
+        ]}
+      />
+      <StyledBox>
+        <AvatarGroup max={2}>
+          <Avatar
             alt="Globant"
             src={require("../../images/globant.png")}
             sx={{ width: 56, height: 56 }}
